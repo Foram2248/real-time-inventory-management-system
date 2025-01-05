@@ -22,9 +22,55 @@ A real-time inventory management system built using **Svelte**, **Flask**, **Soc
 
 ---
 
+## Prerequisites
+- Node.js (v14 or later)
+- npm (v6 or later)
+- Python (v3.9 or later)
+
+## Project Structure
+- flask-server: Flask application with Flask-SocketIO for real-time communication and DuckDB for database management.
+- svelte-app: Svelte application using Flowbite UI framework for a modern table display and WebSocket communication.
+
+
 ## 🔧 Installation and Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/real-time-inventory-management.git](https://github.com/Foram2248/real-time-inventory-management-system.git)
-cd real-time-inventory-management
+git clone https://github.com/your-username/real-time-inventory-management.git
+cd real-time-inventory-management-system
+ ```
+
+### 2. Backend Setup
+```bash
+cd backend
+ ```
+
+### 3. Create a Python virtual environment and activate it:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+ ```
+### 4. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+ ```
+### 5. Run the Flask backend server:
+```bash
+python app.py
+ ```
+### 6.Frontend Setup
+```bash
+cd frontend
+
+ ```
+### 7. Install the required Node.js dependencies:
+```bash
+npm install
+ ```
+### 8. Start the frontend development server:
+```bash
+npm run dev
+ ```
+
+ 
+
