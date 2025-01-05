@@ -1,0 +1,11 @@
+import App from './App.svelte';
+import './styles/global.css'; // Adjust the path if necessary
+import 'flowbite';
+const app = new App({
+	target: document.body,
+	props: {
+		name: 'world'
+	}
+});
+
+export default app;

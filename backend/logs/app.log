@@ -1,0 +1,711 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:18:07] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:18:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:18:28] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:20:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:08] "GET /socket.io/?EIO=4&transport=polling&t=ckoqopjh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:08] "POST /socket.io/?EIO=4&transport=polling&t=ckouks4w&sid=vRdYnl9o-RxAN_G2AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:08] "GET /socket.io/?EIO=4&transport=polling&t=ckouk8xt&sid=vRdYnl9o-RxAN_G2AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "GET /socket.io/?EIO=4&transport=websocket&sid=vRdYnl9o-RxAN_G2AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "GET /socket.io/?EIO=4&transport=polling&t=cldeos7s HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "POST /socket.io/?EIO=4&transport=polling&t=clderdy3&sid=PPoBJv8UWqMBRi_oAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "GET /socket.io/?EIO=4&transport=polling&t=cldesfxz&sid=PPoBJv8UWqMBRi_oAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "GET /socket.io/?EIO=4&transport=polling&t=cldfy0on&sid=PPoBJv8UWqMBRi_oAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:40] "POST /socket.io/?EIO=4&transport=polling&t=cldfygt5&sid=PPoBJv8UWqMBRi_oAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:41] "GET /socket.io/?EIO=4&transport=websocket&sid=PPoBJv8UWqMBRi_oAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:41] "GET /socket.io/?EIO=4&transport=polling&t=cldkvoxz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:41] "POST /socket.io/?EIO=4&transport=polling&t=cldkyh9h&sid=mxYPf0PgOlIL3SgdAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:26:41] "GET /socket.io/?EIO=4&transport=polling&t=cldkyw7o&sid=mxYPf0PgOlIL3SgdAAAE HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:27:20] "GET /socket.io/?EIO=4&transport=websocket&sid=mxYPf0PgOlIL3SgdAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=cm7yszqt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:27:20] "POST /socket.io/?EIO=4&transport=polling&t=cm7yvxsd&sid=fvJt4ixU1mgp4K-xAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=cm7yw9r6&sid=fvJt4ixU1mgp4K-xAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:27:20] "GET /socket.io/?EIO=4&transport=polling&t=cm7zz1me&sid=fvJt4ixU1mgp4K-xAAAG HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "GET /socket.io/?EIO=4&transport=websocket&sid=fvJt4ixU1mgp4K-xAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "GET /socket.io/?EIO=4&transport=polling&t=csilok9o HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "POST /socket.io/?EIO=4&transport=polling&t=csim05rx&sid=ORAInQ0T6CZGL0OfAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "GET /socket.io/?EIO=4&transport=polling&t=csim1qqe&sid=ORAInQ0T6CZGL0OfAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "GET /socket.io/?EIO=4&transport=polling&t=csipbd5e&sid=ORAInQ0T6CZGL0OfAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:14] "POST /socket.io/?EIO=4&transport=polling&t=csipba7o&sid=ORAInQ0T6CZGL0OfAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "GET /socket.io/?EIO=4&transport=websocket&sid=ORAInQ0T6CZGL0OfAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "GET /socket.io/?EIO=4&transport=polling&t=csnnxxl7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "POST /socket.io/?EIO=4&transport=polling&t=csno0ro5&sid=oEdX980r4HQlXojcAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "GET /socket.io/?EIO=4&transport=polling&t=csno0ahv&sid=oEdX980r4HQlXojcAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "GET /socket.io/?EIO=4&transport=polling&t=csnoxj3x&sid=oEdX980r4HQlXojcAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:20] "POST /socket.io/?EIO=4&transport=polling&t=csnox22o&sid=oEdX980r4HQlXojcAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:21] "GET /socket.io/?EIO=4&transport=websocket&sid=oEdX980r4HQlXojcAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:21] "GET /socket.io/?EIO=4&transport=polling&t=csnx5ry0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:21] "POST /socket.io/?EIO=4&transport=polling&t=csnx8my3&sid=sugSaD50Vxycd0jGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:21] "GET /socket.io/?EIO=4&transport=polling&t=csnx8qjm&sid=sugSaD50Vxycd0jGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:21] "GET /socket.io/?EIO=4&transport=polling&t=csny3vuq&sid=sugSaD50Vxycd0jGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=websocket&sid=sugSaD50Vxycd0jGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=polling&t=csti5hwg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "POST /socket.io/?EIO=4&transport=polling&t=csti7zlb&sid=P8Akk0T3-3bu--jNAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=polling&t=csti8d0p&sid=P8Akk0T3-3bu--jNAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=polling&t=cstj0ixl&sid=P8Akk0T3-3bu--jNAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=websocket&sid=P8Akk0T3-3bu--jNAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=polling&t=csu00h7m HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "POST /socket.io/?EIO=4&transport=polling&t=csu02wq5&sid=vyNDCqf5BzTBi6TQAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:28] "GET /socket.io/?EIO=4&transport=polling&t=csu02fbw&sid=vyNDCqf5BzTBi6TQAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "GET /socket.io/?EIO=4&transport=websocket&sid=vyNDCqf5BzTBi6TQAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "GET /socket.io/?EIO=4&transport=polling&t=csu4gz8j HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "POST /socket.io/?EIO=4&transport=polling&t=csu4jq99&sid=jpScbjoO2FqIC1vdAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "GET /socket.io/?EIO=4&transport=polling&t=csu4j02r&sid=jpScbjoO2FqIC1vdAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "GET /socket.io/?EIO=4&transport=polling&t=csu58fou&sid=jpScbjoO2FqIC1vdAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:29] "POST /socket.io/?EIO=4&transport=polling&t=csu58g0a&sid=jpScbjoO2FqIC1vdAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:45] "GET /socket.io/?EIO=4&transport=websocket&sid=jpScbjoO2FqIC1vdAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:45] "GET /socket.io/?EIO=4&transport=polling&t=ct6whfxz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:45] "POST /socket.io/?EIO=4&transport=polling&t=ct6wm09v&sid=mi4K0Dl6dCCL9SAJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:45] "GET /socket.io/?EIO=4&transport=polling&t=ct6wmv7y&sid=mi4K0Dl6dCCL9SAJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:32:45] "GET /socket.io/?EIO=4&transport=polling&t=ct6xrd2y&sid=mi4K0Dl6dCCL9SAJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "GET /socket.io/?EIO=4&transport=websocket&sid=mi4K0Dl6dCCL9SAJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "GET /socket.io/?EIO=4&transport=polling&t=ctoqlrf2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "POST /socket.io/?EIO=4&transport=polling&t=ctoqpt3u&sid=g_enrj13Tu5XRhduAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "GET /socket.io/?EIO=4&transport=polling&t=ctoqpqrb&sid=g_enrj13Tu5XRhduAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "GET /socket.io/?EIO=4&transport=polling&t=ctorlgqx&sid=g_enrj13Tu5XRhduAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:08] "POST /socket.io/?EIO=4&transport=polling&t=ctormmj3&sid=g_enrj13Tu5XRhduAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "GET /socket.io/?EIO=4&transport=websocket&sid=g_enrj13Tu5XRhduAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "GET /socket.io/?EIO=4&transport=polling&t=ctruyn5y HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "POST /socket.io/?EIO=4&transport=polling&t=ctrv2phc&sid=pGkLYIMfO9MLEUx2AAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "GET /socket.io/?EIO=4&transport=polling&t=ctrv2j4m&sid=pGkLYIMfO9MLEUx2AAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "GET /socket.io/?EIO=4&transport=polling&t=ctrvyfn2&sid=pGkLYIMfO9MLEUx2AAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:12] "POST /socket.io/?EIO=4&transport=polling&t=ctrvy0fl&sid=pGkLYIMfO9MLEUx2AAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=websocket&sid=pGkLYIMfO9MLEUx2AAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsdo1jl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "POST /socket.io/?EIO=4&transport=polling&t=ctsdscqj&sid=17e0f_PVSobQlC-2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsdsbdz&sid=17e0f_PVSobQlC-2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctselfrg&sid=17e0f_PVSobQlC-2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=websocket&sid=17e0f_PVSobQlC-2AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsi0upo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "POST /socket.io/?EIO=4&transport=polling&t=ctsi5v44&sid=06yxlP6VRQMCpmx_AAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsi5s6o&sid=06yxlP6VRQMCpmx_AAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsirkfz&sid=06yxlP6VRQMCpmx_AAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=websocket&sid=06yxlP6VRQMCpmx_AAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsmy1m1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "POST /socket.io/?EIO=4&transport=polling&t=ctsn0set&sid=9s-R6eswr2EthnGzAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsn05ms&sid=9s-R6eswr2EthnGzAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:13] "GET /socket.io/?EIO=4&transport=polling&t=ctsnrtk8&sid=9s-R6eswr2EthnGzAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:19] "GET /socket.io/?EIO=4&transport=websocket&sid=9s-R6eswr2EthnGzAAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:20] "GET /socket.io/?EIO=4&transport=polling&t=ctxg0vdw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:20] "POST /socket.io/?EIO=4&transport=polling&t=ctxg4wof&sid=ka1EjQWGiJjT7WqzAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:20] "GET /socket.io/?EIO=4&transport=polling&t=ctxg4o96&sid=ka1EjQWGiJjT7WqzAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:20] "GET /socket.io/?EIO=4&transport=polling&t=ctxgzhvg&sid=ka1EjQWGiJjT7WqzAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:25] "GET /socket.io/?EIO=4&transport=websocket&sid=ka1EjQWGiJjT7WqzAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:25] "GET /socket.io/?EIO=4&transport=polling&t=cu1lfxn9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:25] "POST /socket.io/?EIO=4&transport=polling&t=cu1ljjsr&sid=XZ5mBQWcCyKqGfy9AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:25] "GET /socket.io/?EIO=4&transport=polling&t=cu1lkvii&sid=XZ5mBQWcCyKqGfy9AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:33:25] "GET /socket.io/?EIO=4&transport=polling&t=cu1lo30s&sid=XZ5mBQWcCyKqGfy9AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:36:22] "GET /socket.io/?EIO=4&transport=websocket&sid=XZ5mBQWcCyKqGfy9AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:36:22] "GET /socket.io/?EIO=4&transport=polling&t=cxtyiwec HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:36:22] "POST /socket.io/?EIO=4&transport=polling&t=cxu08vhp&sid=eCICLXFTKpKSdrvPAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:36:22] "GET /socket.io/?EIO=4&transport=polling&t=cxu081ty&sid=eCICLXFTKpKSdrvPAAAk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:28] "GET /socket.io/?EIO=4&transport=polling&t=d89fmvsw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:28] "POST /socket.io/?EIO=4&transport=polling&t=d89fslnq&sid=2V0UR9XsgwqnSNO5AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:28] "GET /socket.io/?EIO=4&transport=polling&t=d89fsrs0&sid=2V0UR9XsgwqnSNO5AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:44:28] "GET /socket.io/?EIO=4&transport=polling&t=d89geczi&sid=2V0UR9XsgwqnSNO5AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "GET /socket.io/?EIO=4&transport=websocket&sid=2V0UR9XsgwqnSNO5AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "GET /socket.io/?EIO=4&transport=polling&t=dc77eanf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "POST /socket.io/?EIO=4&transport=polling&t=dc77n822&sid=Ozknf-B4NqfZDsPzAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "GET /socket.io/?EIO=4&transport=polling&t=dc77o09q&sid=Ozknf-B4NqfZDsPzAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "GET /socket.io/?EIO=4&transport=polling&t=dc7ax1k8&sid=Ozknf-B4NqfZDsPzAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:47:32] "POST /socket.io/?EIO=4&transport=polling&t=dc7axzj6&sid=Ozknf-B4NqfZDsPzAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "GET /socket.io/?EIO=4&transport=websocket&sid=Ozknf-B4NqfZDsPzAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "GET /socket.io/?EIO=4&transport=polling&t=deg8ju5d HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "POST /socket.io/?EIO=4&transport=polling&t=deg8o2kx&sid=j6DW9A71IlMFkcS0AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "GET /socket.io/?EIO=4&transport=polling&t=deg8pnvb&sid=j6DW9A71IlMFkcS0AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "GET /socket.io/?EIO=4&transport=polling&t=deg9v1ii&sid=j6DW9A71IlMFkcS0AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:17] "POST /socket.io/?EIO=4&transport=polling&t=deg9vxch&sid=j6DW9A71IlMFkcS0AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=websocket&sid=j6DW9A71IlMFkcS0AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=deiyzm5b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "POST /socket.io/?EIO=4&transport=polling&t=deiz9k4h&sid=dMfQf71l5vzuCNugAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=deiz9py7&sid=dMfQf71l5vzuCNugAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=dej0acs5&sid=dMfQf71l5vzuCNugAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=websocket&sid=dMfQf71l5vzuCNugAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=dejj6xr3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "POST /socket.io/?EIO=4&transport=polling&t=dejja942&sid=rMU7LLi6qvX6Pz11AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=dejjb14m&sid=rMU7LLi6qvX6Pz11AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:21] "GET /socket.io/?EIO=4&transport=polling&t=dejk4usp&sid=rMU7LLi6qvX6Pz11AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=websocket&sid=rMU7LLi6qvX6Pz11AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dejw9lei HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "POST /socket.io/?EIO=4&transport=polling&t=dejwd36p&sid=lkkqHn5Ny_5rENBjAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dejwdzd3&sid=lkkqHn5Ny_5rENBjAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dejx703l&sid=lkkqHn5Ny_5rENBjAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "POST /socket.io/?EIO=4&transport=polling&t=dejx8ulj&sid=lkkqHn5Ny_5rENBjAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=websocket&sid=lkkqHn5Ny_5rENBjAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek1vdte HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "POST /socket.io/?EIO=4&transport=polling&t=dek204fw&sid=T4AbU7hOGutjFltEAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek2071b&sid=T4AbU7hOGutjFltEAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek2shbc&sid=T4AbU7hOGutjFltEAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=websocket&sid=T4AbU7hOGutjFltEAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek8dg1t HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "POST /socket.io/?EIO=4&transport=polling&t=dek8gebi&sid=UGoMR1CkS_08R69AAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek8hefk&sid=UGoMR1CkS_08R69AAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "POST /socket.io/?EIO=4&transport=polling&t=dek98og9&sid=UGoMR1CkS_08R69AAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:22] "GET /socket.io/?EIO=4&transport=polling&t=dek98do1&sid=UGoMR1CkS_08R69AAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:24] "GET /socket.io/?EIO=4&transport=websocket&sid=UGoMR1CkS_08R69AAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:24] "GET /socket.io/?EIO=4&transport=polling&t=delu335o HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:24] "POST /socket.io/?EIO=4&transport=polling&t=delu63yw&sid=HJmD3vIkiufjxWdsAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:24] "GET /socket.io/?EIO=4&transport=polling&t=delu79zn&sid=HJmD3vIkiufjxWdsAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:24] "GET /socket.io/?EIO=4&transport=polling&t=delv1ztq&sid=HJmD3vIkiufjxWdsAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=websocket&sid=HJmD3vIkiufjxWdsAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=dem7pi30 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "POST /socket.io/?EIO=4&transport=polling&t=dem7voyc&sid=Cvr5q2Jfnrp7eWriAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=dem7vxej&sid=Cvr5q2Jfnrp7eWriAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=dem8nur5&sid=Cvr5q2Jfnrp7eWriAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=websocket&sid=Cvr5q2Jfnrp7eWriAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=demblv7g HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "POST /socket.io/?EIO=4&transport=polling&t=dembo84h&sid=b025Wo0gFL1WRJUJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=dembojvc&sid=b025Wo0gFL1WRJUJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=demcc2c9&sid=b025Wo0gFL1WRJUJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "POST /socket.io/?EIO=4&transport=polling&t=demcc4qb&sid=b025Wo0gFL1WRJUJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=websocket&sid=b025Wo0gFL1WRJUJAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=demgs5d5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "POST /socket.io/?EIO=4&transport=polling&t=demgx91u&sid=D8_Ee_0Ud1XJvuIAAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=demgxx0n&sid=D8_Ee_0Ud1XJvuIAAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "GET /socket.io/?EIO=4&transport=polling&t=demhm717&sid=D8_Ee_0Ud1XJvuIAAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:49:25] "POST /socket.io/?EIO=4&transport=polling&t=demhm3d3&sid=D8_Ee_0Ud1XJvuIAAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "GET /socket.io/?EIO=4&transport=websocket&sid=D8_Ee_0Ud1XJvuIAAAAW HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "GET /socket.io/?EIO=4&transport=polling&t=dflvxgb2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "POST /socket.io/?EIO=4&transport=polling&t=dflw8131&sid=MdSMCwTeHShNLVyOAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "GET /socket.io/?EIO=4&transport=polling&t=dflw8jca&sid=MdSMCwTeHShNLVyOAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "GET /socket.io/?EIO=4&transport=polling&t=dflzlve7&sid=MdSMCwTeHShNLVyOAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:50:11] "POST /socket.io/?EIO=4&transport=polling&t=dflzmhdz&sid=MdSMCwTeHShNLVyOAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "GET /socket.io/?EIO=4&transport=websocket&sid=MdSMCwTeHShNLVyOAAAY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "GET /socket.io/?EIO=4&transport=polling&t=djiz8rvb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "POST /socket.io/?EIO=4&transport=polling&t=djizvheq&sid=dJcOYUp3Ft7H5iH5AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "GET /socket.io/?EIO=4&transport=polling&t=djizwdnc&sid=dJcOYUp3Ft7H5iH5AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "GET /socket.io/?EIO=4&transport=polling&t=djj3y6cn&sid=dJcOYUp3Ft7H5iH5AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:14] "POST /socket.io/?EIO=4&transport=polling&t=djj3zpzx&sid=dJcOYUp3Ft7H5iH5AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "GET /socket.io/?EIO=4&transport=websocket&sid=dJcOYUp3Ft7H5iH5AAAa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "GET /socket.io/?EIO=4&transport=polling&t=djm6vi5t HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "POST /socket.io/?EIO=4&transport=polling&t=djm7hy6r&sid=3H5V47IWVFwXXE0yAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "GET /socket.io/?EIO=4&transport=polling&t=djm7iqt2&sid=3H5V47IWVFwXXE0yAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "GET /socket.io/?EIO=4&transport=polling&t=djmamp9x&sid=3H5V47IWVFwXXE0yAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:18] "POST /socket.io/?EIO=4&transport=polling&t=djmanm2n&sid=3H5V47IWVFwXXE0yAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:22] "GET /socket.io/?EIO=4&transport=websocket&sid=3H5V47IWVFwXXE0yAAAc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:22] "GET /socket.io/?EIO=4&transport=polling&t=djpehuij HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:22] "POST /socket.io/?EIO=4&transport=polling&t=djpeqir4&sid=nOjA8HGmD-bk_Us6AAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:22] "GET /socket.io/?EIO=4&transport=polling&t=djpeqx12&sid=nOjA8HGmD-bk_Us6AAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=websocket&sid=nOjA8HGmD-bk_Us6AAAe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djpwe9g1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "POST /socket.io/?EIO=4&transport=polling&t=djpwh31w&sid=QQlkpxKrP-1VZFVYAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djpwijtu&sid=QQlkpxKrP-1VZFVYAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djpxbmye&sid=QQlkpxKrP-1VZFVYAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "POST /socket.io/?EIO=4&transport=polling&t=djpxciw6&sid=QQlkpxKrP-1VZFVYAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=websocket&sid=QQlkpxKrP-1VZFVYAAAg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djqc4uhg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "POST /socket.io/?EIO=4&transport=polling&t=djqc8by3&sid=ZR2D2VDl46rpzRM2AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djqc8017&sid=ZR2D2VDl46rpzRM2AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "GET /socket.io/?EIO=4&transport=polling&t=djqd2a68&sid=ZR2D2VDl46rpzRM2AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:23] "POST /socket.io/?EIO=4&transport=polling&t=djqd3zik&sid=ZR2D2VDl46rpzRM2AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:24] "GET /socket.io/?EIO=4&transport=websocket&sid=ZR2D2VDl46rpzRM2AAAi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:24] "GET /socket.io/?EIO=4&transport=polling&t=djqh2ok0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:24] "POST /socket.io/?EIO=4&transport=polling&t=djqh5xl3&sid=7sX0CRxxIWwnXmHyAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:24] "GET /socket.io/?EIO=4&transport=polling&t=djqh55c0&sid=7sX0CRxxIWwnXmHyAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:53:24] "GET /socket.io/?EIO=4&transport=polling&t=djqhws6d&sid=7sX0CRxxIWwnXmHyAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:53] "GET /socket.io/?EIO=4&transport=websocket&sid=7sX0CRxxIWwnXmHyAAAk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:53] "GET /socket.io/?EIO=4&transport=polling&t=dlnvq0jf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:53] "POST /socket.io/?EIO=4&transport=polling&t=dlnvvp7f&sid=KOw1nlLENB3C4nbVAAAm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dlnvvocp&sid=KOw1nlLENB3C4nbVAAAm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dlnw2yiq&sid=KOw1nlLENB3C4nbVAAAm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "POST /socket.io/?EIO=4&transport=polling&t=dlnw3ky4&sid=KOw1nlLENB3C4nbVAAAm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=websocket&sid=KOw1nlLENB3C4nbVAAAm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dlock9kt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "POST /socket.io/?EIO=4&transport=polling&t=dlocooo7&sid=omyhf0JlliI2-85DAAAo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dlocpbvd&sid=omyhf0JlliI2-85DAAAo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dlodkpgf&sid=omyhf0JlliI2-85DAAAo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=websocket&sid=omyhf0JlliI2-85DAAAo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dloiqivq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "POST /socket.io/?EIO=4&transport=polling&t=dloit2td&sid=JYRSZlH70zAYGf0OAAAq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:54:54] "GET /socket.io/?EIO=4&transport=polling&t=dloitigm&sid=JYRSZlH70zAYGf0OAAAq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:55:52] "GET /socket.io/?EIO=4&transport=websocket&sid=JYRSZlH70zAYGf0OAAAq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:55:52] "GET /socket.io/?EIO=4&transport=polling&t=dmxa109h HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:55:52] "POST /socket.io/?EIO=4&transport=polling&t=dmxa5ngd&sid=S4i30dsUX20oQWhPAAAs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:55:52] "GET /socket.io/?EIO=4&transport=polling&t=dmxa5vuc&sid=S4i30dsUX20oQWhPAAAs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:56:08] "GET /socket.io/?EIO=4&transport=websocket&sid=S4i30dsUX20oQWhPAAAs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:56:08] "GET /socket.io/?EIO=4&transport=polling&t=dn94vt2r HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:56:08] "POST /socket.io/?EIO=4&transport=polling&t=dn94yho9&sid=EhuJpQNZplmg32vMAAAu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:56:08] "GET /socket.io/?EIO=4&transport=polling&t=dn94zuca&sid=EhuJpQNZplmg32vMAAAu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 15:57:24] "GET /socket.io/?EIO=4&transport=websocket&sid=EhuJpQNZplmg32vMAAAu HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:11:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:11:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:20:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:03] "GET /socket.io/?EIO=4&transport=polling&t=elv7t4dh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:04] "GET /socket.io/?EIO=4&transport=polling&t=elwasykn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:06] "GET /socket.io/?EIO=4&transport=polling&t=elxh4dyn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:10] "GET /socket.io/?EIO=4&transport=polling&t=em0s92qf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:15] "GET /socket.io/?EIO=4&transport=polling&t=em4nes9z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:20] "GET /socket.io/?EIO=4&transport=polling&t=em8ije8i HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:25] "GET /socket.io/?EIO=4&transport=polling&t=emcdpeva HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:30] "GET /socket.io/?EIO=4&transport=polling&t=emg8xnob HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:35] "GET /socket.io/?EIO=4&transport=polling&t=emk446i4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:40] "GET /socket.io/?EIO=4&transport=polling&t=emnzmp0b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:45] "GET /socket.io/?EIO=4&transport=polling&t=emruuj5d HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:47] "GET /socket.io/?EIO=4&transport=polling&t=emti3uus HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:47] "POST /socket.io/?EIO=4&transport=polling&t=emti9dk5&sid=F5zZ8zR4bY49Xu0CAAAL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:47] "GET /socket.io/?EIO=4&transport=polling&t=emtiapg5&sid=F5zZ8zR4bY49Xu0CAAAL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:47] "GET /socket.io/?EIO=4&transport=polling&t=emtls9i0&sid=F5zZ8zR4bY49Xu0CAAAL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:23:47] "POST /socket.io/?EIO=4&transport=polling&t=emtlsa9g&sid=F5zZ8zR4bY49Xu0CAAAL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "GET /socket.io/?EIO=4&transport=websocket&sid=F5zZ8zR4bY49Xu0CAAAL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "GET /socket.io/?EIO=4&transport=polling&t=enj56ilm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "POST /socket.io/?EIO=4&transport=polling&t=enj5eapf&sid=Ebs9a7vKRtCpOnDuAAAN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "GET /socket.io/?EIO=4&transport=polling&t=enj5fgf3&sid=Ebs9a7vKRtCpOnDuAAAN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "GET /socket.io/?EIO=4&transport=polling&t=enj8oztj&sid=Ebs9a7vKRtCpOnDuAAAN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:20] "POST /socket.io/?EIO=4&transport=polling&t=enj8p1eb&sid=Ebs9a7vKRtCpOnDuAAAN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:24] "GET /socket.io/?EIO=4&transport=websocket&sid=Ebs9a7vKRtCpOnDuAAAN HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:24] "GET /socket.io/?EIO=4&transport=polling&t=enluqhr9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:24] "POST /socket.io/?EIO=4&transport=polling&t=enluyhn9&sid=IV9PrAMVMNGhlyKHAAAP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:24] "GET /socket.io/?EIO=4&transport=polling&t=enluy9n1&sid=IV9PrAMVMNGhlyKHAAAP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "GET /socket.io/?EIO=4&transport=websocket&sid=IV9PrAMVMNGhlyKHAAAP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "GET /socket.io/?EIO=4&transport=polling&t=enns0pk4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "POST /socket.io/?EIO=4&transport=polling&t=enns4mxk&sid=g4zT5oXtYGvs_Dc-AAAR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "GET /socket.io/?EIO=4&transport=polling&t=enns449t&sid=g4zT5oXtYGvs_Dc-AAAR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "GET /socket.io/?EIO=4&transport=polling&t=ennszuhd&sid=g4zT5oXtYGvs_Dc-AAAR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:24:26] "POST /socket.io/?EIO=4&transport=polling&t=ennsz04p&sid=g4zT5oXtYGvs_Dc-AAAR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:25:07] "GET /socket.io/?EIO=4&transport=websocket&sid=g4zT5oXtYGvs_Dc-AAAR HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:25:07] "GET /socket.io/?EIO=4&transport=polling&t=eoiug959 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:25:07] "POST /socket.io/?EIO=4&transport=polling&t=eoiumjqd&sid=AJuQJo6hHorUt4o7AAAT HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:25:07] "GET /socket.io/?EIO=4&transport=polling&t=eoiunei1&sid=AJuQJo6hHorUt4o7AAAT HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:25:07] "GET /socket.io/?EIO=4&transport=polling&t=eoivq4kp&sid=AJuQJo6hHorUt4o7AAAT HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:32:54] "GET /socket.io/?EIO=4&transport=websocket&sid=AJuQJo6hHorUt4o7AAAT HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:32:54] "GET /socket.io/?EIO=4&transport=polling&t=eyjf2o7r HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:32:54] "POST /socket.io/?EIO=4&transport=polling&t=eyjfe9nt&sid=TxLOTbmDS9FuOu9PAAAV HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:32:54] "GET /socket.io/?EIO=4&transport=polling&t=eyjfe12b&sid=TxLOTbmDS9FuOu9PAAAV HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:32:54] "GET /socket.io/?EIO=4&transport=polling&t=eyjibu4i&sid=TxLOTbmDS9FuOu9PAAAV HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:38:54] "GET /socket.io/?EIO=4&transport=websocket&sid=TxLOTbmDS9FuOu9PAAAV HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:38:54] "GET /socket.io/?EIO=4&transport=polling&t=f69fgflf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:38:54] "POST /socket.io/?EIO=4&transport=polling&t=f69fr2ra&sid=QdIPxaRGOy5-5qAzAAAX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:38:54] "GET /socket.io/?EIO=4&transport=polling&t=f69frjqc&sid=QdIPxaRGOy5-5qAzAAAX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:38:54] "GET /socket.io/?EIO=4&transport=polling&t=f69jm1iz&sid=QdIPxaRGOy5-5qAzAAAX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:39:02] "GET /socket.io/?EIO=4&transport=websocket&sid=QdIPxaRGOy5-5qAzAAAX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:39:02] "GET /socket.io/?EIO=4&transport=polling&t=f6fi73nq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:39:02] "POST /socket.io/?EIO=4&transport=polling&t=f6fibcql&sid=ewX6RUYBqdhtX8KnAAAZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:39:02] "GET /socket.io/?EIO=4&transport=polling&t=f6fib9ji&sid=ewX6RUYBqdhtX8KnAAAZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:39:02] "GET /socket.io/?EIO=4&transport=polling&t=f6fjb96o&sid=ewX6RUYBqdhtX8KnAAAZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "GET /socket.io/?EIO=4&transport=websocket&sid=ewX6RUYBqdhtX8KnAAAZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "GET /socket.io/?EIO=4&transport=polling&t=f85pu71f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "POST /socket.io/?EIO=4&transport=polling&t=f85q3s40&sid=P_fRO8cQXoebtNP1AAAb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "GET /socket.io/?EIO=4&transport=polling&t=f85q3185&sid=P_fRO8cQXoebtNP1AAAb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "GET /socket.io/?EIO=4&transport=polling&t=f85uls5d&sid=P_fRO8cQXoebtNP1AAAb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:23] "POST /socket.io/?EIO=4&transport=polling&t=f85ulszp&sid=P_fRO8cQXoebtNP1AAAb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:26] "GET /socket.io/?EIO=4&transport=websocket&sid=P_fRO8cQXoebtNP1AAAb HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:26] "GET /socket.io/?EIO=4&transport=polling&t=f88m89di HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:26] "POST /socket.io/?EIO=4&transport=polling&t=f88mgqff&sid=24uNmzPpETToDPQZAAAd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:26] "GET /socket.io/?EIO=4&transport=polling&t=f88mg8f6&sid=24uNmzPpETToDPQZAAAd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:27] "GET /socket.io/?EIO=4&transport=polling&t=f88pxn3c&sid=24uNmzPpETToDPQZAAAd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:40:27] "POST /socket.io/?EIO=4&transport=polling&t=f88pyd6i&sid=24uNmzPpETToDPQZAAAd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "GET /socket.io/?EIO=4&transport=websocket&sid=24uNmzPpETToDPQZAAAd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "GET /socket.io/?EIO=4&transport=polling&t=f9jmplm7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "POST /socket.io/?EIO=4&transport=polling&t=f9jmx1vi&sid=R_Vp7LP309CgDaSiAAAf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "GET /socket.io/?EIO=4&transport=polling&t=f9jmxzcw&sid=R_Vp7LP309CgDaSiAAAf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "GET /socket.io/?EIO=4&transport=polling&t=f9jqrmb2&sid=R_Vp7LP309CgDaSiAAAf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:41:27] "POST /socket.io/?EIO=4&transport=polling&t=f9jqrva3&sid=R_Vp7LP309CgDaSiAAAf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "GET /socket.io/?EIO=4&transport=websocket&sid=R_Vp7LP309CgDaSiAAAf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "GET /socket.io/?EIO=4&transport=polling&t=fe7bskw5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "POST /socket.io/?EIO=4&transport=polling&t=fe7c6gec&sid=lu4Zzl2olJBoi-CmAAAh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "GET /socket.io/?EIO=4&transport=polling&t=fe7c7u83&sid=lu4Zzl2olJBoi-CmAAAh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "GET /socket.io/?EIO=4&transport=polling&t=fe7glzj7&sid=lu4Zzl2olJBoi-CmAAAh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:05] "POST /socket.io/?EIO=4&transport=polling&t=fe7glvrn&sid=lu4Zzl2olJBoi-CmAAAh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "GET /socket.io/?EIO=4&transport=websocket&sid=lu4Zzl2olJBoi-CmAAAh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "GET /socket.io/?EIO=4&transport=polling&t=fedrd5j9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "POST /socket.io/?EIO=4&transport=polling&t=fedrqf04&sid=__pedJZ_XSC69g_hAAAj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "GET /socket.io/?EIO=4&transport=polling&t=fedrrjfg&sid=__pedJZ_XSC69g_hAAAj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "GET /socket.io/?EIO=4&transport=polling&t=fedva14c&sid=__pedJZ_XSC69g_hAAAj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:45:13] "POST /socket.io/?EIO=4&transport=polling&t=fedva3vc&sid=__pedJZ_XSC69g_hAAAj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "GET /socket.io/?EIO=4&transport=websocket&sid=__pedJZ_XSC69g_hAAAj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "GET /socket.io/?EIO=4&transport=polling&t=ffu090r0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "POST /socket.io/?EIO=4&transport=polling&t=ffu0z4q7&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "GET /socket.io/?EIO=4&transport=polling&t=ffu0zk30&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "GET /socket.io/?EIO=4&transport=polling&t=ffu1gsqx&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "POST /socket.io/?EIO=4&transport=polling&t=ffu1g9ly&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:21] "GET /socket.io/?EIO=4&transport=polling&t=ffu2u07q&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "GET /socket.io/?EIO=4&transport=websocket&sid=b0APiFNFDO99dKFHAAAl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "GET /socket.io/?EIO=4&transport=polling&t=ffunofht HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "POST /socket.io/?EIO=4&transport=polling&t=ffunwf1a&sid=FBkA9OVBiU7BBf_xAAAn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "GET /socket.io/?EIO=4&transport=polling&t=ffunwke3&sid=FBkA9OVBiU7BBf_xAAAn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "GET /socket.io/?EIO=4&transport=polling&t=ffur9hi3&sid=FBkA9OVBiU7BBf_xAAAn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:22] "POST /socket.io/?EIO=4&transport=polling&t=ffur9dwy&sid=FBkA9OVBiU7BBf_xAAAn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:26] "GET /socket.io/?EIO=4&transport=websocket&sid=FBkA9OVBiU7BBf_xAAAn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:26] "GET /socket.io/?EIO=4&transport=polling&t=ffyfpezi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:26] "POST /socket.io/?EIO=4&transport=polling&t=ffyfxdov&sid=NSkWV-RCxZG-ZK7tAAAp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:26] "GET /socket.io/?EIO=4&transport=polling&t=ffyfx4qj&sid=NSkWV-RCxZG-ZK7tAAAp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:46:26] "GET /socket.io/?EIO=4&transport=polling&t=ffyg3hf5&sid=NSkWV-RCxZG-ZK7tAAAp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:38] "GET /socket.io/?EIO=4&transport=websocket&sid=NSkWV-RCxZG-ZK7tAAAp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:38] "GET /socket.io/?EIO=4&transport=polling&t=fis5shks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:38] "POST /socket.io/?EIO=4&transport=polling&t=fis65jxi&sid=2apHQWt4nkR7NZamAAAr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:38] "GET /socket.io/?EIO=4&transport=polling&t=fis66nx2&sid=2apHQWt4nkR7NZamAAAr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:39] "GET /socket.io/?EIO=4&transport=polling&t=fisbe7om&sid=2apHQWt4nkR7NZamAAAr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:48:39] "POST /socket.io/?EIO=4&transport=polling&t=fisbe9p4&sid=2apHQWt4nkR7NZamAAAr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:49] "GET /socket.io/?EIO=4&transport=websocket&sid=2apHQWt4nkR7NZamAAAr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:49] "GET /socket.io/?EIO=4&transport=polling&t=fpg48lv2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:49] "POST /socket.io/?EIO=4&transport=polling&t=fpg5dxv0&sid=vAXD10HlujazZqYBAAAt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:49] "GET /socket.io/?EIO=4&transport=polling&t=fpg5evo3&sid=vAXD10HlujazZqYBAAAt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "GET /socket.io/?EIO=4&transport=websocket&sid=vAXD10HlujazZqYBAAAt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "GET /socket.io/?EIO=4&transport=polling&t=fpgt17vg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "POST /socket.io/?EIO=4&transport=polling&t=fpgtdcuu&sid=jNc9GCTMObHdv50MAAAv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "GET /socket.io/?EIO=4&transport=polling&t=fpgtd32j&sid=jNc9GCTMObHdv50MAAAv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "GET /socket.io/?EIO=4&transport=polling&t=fpgwu8fb&sid=jNc9GCTMObHdv50MAAAv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 16:53:50] "POST /socket.io/?EIO=4&transport=polling&t=fpgwvl7n&sid=jNc9GCTMObHdv50MAAAv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "GET /socket.io/?EIO=4&transport=websocket&sid=jNc9GCTMObHdv50MAAAv HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "GET /socket.io/?EIO=4&transport=polling&t=fyx2sc2w HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "POST /socket.io/?EIO=4&transport=polling&t=fyx7cl2t&sid=Gcg5CmYdYtq0PAeaAAAx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "GET /socket.io/?EIO=4&transport=polling&t=fyx7cyyq&sid=Gcg5CmYdYtq0PAeaAAAx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "GET /socket.io/?EIO=4&transport=polling&t=fyx7pa3v&sid=Gcg5CmYdYtq0PAeaAAAx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:11] "POST /socket.io/?EIO=4&transport=polling&t=fyx7te2w&sid=Gcg5CmYdYtq0PAeaAAAx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "GET /socket.io/?EIO=4&transport=websocket&sid=Gcg5CmYdYtq0PAeaAAAx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "GET /socket.io/?EIO=4&transport=polling&t=fyxkpa54 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "POST /socket.io/?EIO=4&transport=polling&t=fyxkveu0&sid=_9JTw_B29GsM0OYAAAAz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "GET /socket.io/?EIO=4&transport=polling&t=fyxkwsv2&sid=_9JTw_B29GsM0OYAAAAz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "GET /socket.io/?EIO=4&transport=polling&t=fyxly799&sid=_9JTw_B29GsM0OYAAAAz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:12] "POST /socket.io/?EIO=4&transport=polling&t=fyxly2mx&sid=_9JTw_B29GsM0OYAAAAz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:33] "GET /socket.io/?EIO=4&transport=websocket&sid=_9JTw_B29GsM0OYAAAAz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:33] "GET /socket.io/?EIO=4&transport=polling&t=fzdwsn6k HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:33] "POST /socket.io/?EIO=4&transport=polling&t=fzdwysql&sid=HuI1lih9Gkf00QF9AAA1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:33] "GET /socket.io/?EIO=4&transport=polling&t=fzdwywx0&sid=HuI1lih9Gkf00QF9AAA1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=websocket&sid=HuI1lih9Gkf00QF9AAA1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzebz5f1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "POST /socket.io/?EIO=4&transport=polling&t=fzec34yj&sid=-5iF6vRFNUy1Mb3TAAA3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzec4m8m&sid=-5iF6vRFNUy1Mb3TAAA3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzecyqte&sid=-5iF6vRFNUy1Mb3TAAA3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=websocket&sid=-5iF6vRFNUy1Mb3TAAA3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzeevt3b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "POST /socket.io/?EIO=4&transport=polling&t=fzeezcm2&sid=RH6mVQlsh_LzjV6lAAA5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzeez3tv&sid=RH6mVQlsh_LzjV6lAAA5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "GET /socket.io/?EIO=4&transport=polling&t=fzefq0ab&sid=RH6mVQlsh_LzjV6lAAA5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:34] "POST /socket.io/?EIO=4&transport=polling&t=fzefq7na&sid=RH6mVQlsh_LzjV6lAAA5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:37] "GET /socket.io/?EIO=4&transport=websocket&sid=RH6mVQlsh_LzjV6lAAA5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:37] "GET /socket.io/?EIO=4&transport=polling&t=fzgrablp HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:37] "POST /socket.io/?EIO=4&transport=polling&t=fzgreso6&sid=ob_yK_wPaoaej5QYAAA7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:37] "GET /socket.io/?EIO=4&transport=polling&t=fzgrfxit&sid=ob_yK_wPaoaej5QYAAA7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:01:37] "GET /socket.io/?EIO=4&transport=polling&t=fzgs6bhh&sid=ob_yK_wPaoaej5QYAAA7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 17:02:06] "GET /socket.io/?EIO=4&transport=websocket&sid=ob_yK_wPaoaej5QYAAA7 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:38:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:38:36] "GET /socket.io/?EIO=4&transport=polling&t=llchvexu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:38:36] "GET /socket.io/?EIO=4&transport=polling&t=llci4x0s&sid=iqRoHvAM3FklFoBUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:38:36] "POST /socket.io/?EIO=4&transport=polling&t=llci3i9x&sid=iqRoHvAM3FklFoBUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:38:36] "GET /socket.io/?EIO=4&transport=polling&t=llcjiek9&sid=iqRoHvAM3FklFoBUAAAA HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Type INT64 with value 1735778508874 can't be cast because the value is out of range for the destination type INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:41:54] "GET /socket.io/?EIO=4&transport=websocket&sid=iqRoHvAM3FklFoBUAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:41:54] "GET /socket.io/?EIO=4&transport=polling&t=lplfm870 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:41:54] "POST /socket.io/?EIO=4&transport=polling&t=lplfs6cj&sid=sTMo8XKKmkcpEdJ3AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:41:54] "GET /socket.io/?EIO=4&transport=polling&t=lplfsmm5&sid=sTMo8XKKmkcpEdJ3AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:41:54] "GET /socket.io/?EIO=4&transport=polling&t=lplgwl1o&sid=sTMo8XKKmkcpEdJ3AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "GET /socket.io/?EIO=4&transport=websocket&sid=sTMo8XKKmkcpEdJ3AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "GET /socket.io/?EIO=4&transport=polling&t=m10m9fh3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "POST /socket.io/?EIO=4&transport=polling&t=m10ml8we&sid=QP3cJEV3hLCniXZsAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "GET /socket.io/?EIO=4&transport=polling&t=m10mmrsp&sid=QP3cJEV3hLCniXZsAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "GET /socket.io/?EIO=4&transport=polling&t=m10mss64&sid=QP3cJEV3hLCniXZsAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:47] "POST /socket.io/?EIO=4&transport=polling&t=m10msfso&sid=QP3cJEV3hLCniXZsAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:48] "GET /socket.io/?EIO=4&transport=websocket&sid=QP3cJEV3hLCniXZsAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:48] "GET /socket.io/?EIO=4&transport=polling&t=m118kz82 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:48] "POST /socket.io/?EIO=4&transport=polling&t=m118piyl&sid=-GUQIyoBtwNQ0vuvAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:48] "GET /socket.io/?EIO=4&transport=polling&t=m118p8pa&sid=-GUQIyoBtwNQ0vuvAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:50:48] "GET /socket.io/?EIO=4&transport=polling&t=m119q8nh&sid=-GUQIyoBtwNQ0vuvAAAG HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Type INT64 with value 1735779087357 can't be cast because the value is out of range for the destination type INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:54:55] "GET /socket.io/?EIO=4&transport=websocket&sid=-GUQIyoBtwNQ0vuvAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:54:55] "GET /socket.io/?EIO=4&transport=polling&t=m6bu9006 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:54:55] "POST /socket.io/?EIO=4&transport=polling&t=m6bur57b&sid=_z6QpDAY_E-on9RcAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:54:55] "GET /socket.io/?EIO=4&transport=polling&t=m6bur5kv&sid=_z6QpDAY_E-on9RcAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:54:55] "GET /socket.io/?EIO=4&transport=polling&t=m6bzec6n&sid=_z6QpDAY_E-on9RcAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:13] "GET /socket.io/?EIO=4&transport=websocket&sid=_z6QpDAY_E-on9RcAAAI HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:46] "GET /socket.io/?EIO=4&transport=polling&t=m7f5inpk HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:46] "POST /socket.io/?EIO=4&transport=polling&t=m7f5yvlv&sid=SIKetIs41tmzFrHxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:46] "GET /socket.io/?EIO=4&transport=polling&t=m7f5zfly&sid=SIKetIs41tmzFrHxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:46] "GET /socket.io/?EIO=4&transport=polling&t=m7f6cc7e&sid=SIKetIs41tmzFrHxAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:46] "POST /socket.io/?EIO=4&transport=polling&t=m7f6de1c&sid=SIKetIs41tmzFrHxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "GET /socket.io/?EIO=4&transport=websocket&sid=SIKetIs41tmzFrHxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "GET /socket.io/?EIO=4&transport=polling&t=m7lqr069 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "POST /socket.io/?EIO=4&transport=polling&t=m7lqzpsw&sid=6FeG_7MH2uCKh3BqAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "GET /socket.io/?EIO=4&transport=polling&t=m7lqztn8&sid=6FeG_7MH2uCKh3BqAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "GET /socket.io/?EIO=4&transport=polling&t=m7lu9ksp&sid=6FeG_7MH2uCKh3BqAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:55:54] "POST /socket.io/?EIO=4&transport=polling&t=m7lu9re8&sid=6FeG_7MH2uCKh3BqAAAC HTTP/1.1" 200 -
+INFO:root:Adding product: {'id': 1735779381295, 'name': 'Test', 'category': 'Furniture', 'price': 50, 'stock': 50, 'status': 'Active'}
+ERROR:root:Error adding product: Conversion Error: Type INT64 with value 1735779381295 can't be cast because the value is out of range for the destination type INT32
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "GET /socket.io/?EIO=4&transport=websocket&sid=6FeG_7MH2uCKh3BqAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "GET /socket.io/?EIO=4&transport=polling&t=m8bzakcm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "POST /socket.io/?EIO=4&transport=polling&t=m8bznolj&sid=5C8-0sR8qgLYqsvUAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "GET /socket.io/?EIO=4&transport=polling&t=m8bzoi19&sid=5C8-0sR8qgLYqsvUAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "GET /socket.io/?EIO=4&transport=polling&t=m8c39x4o&sid=5C8-0sR8qgLYqsvUAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:56:28] "POST /socket.io/?EIO=4&transport=polling&t=m8c39onu&sid=5C8-0sR8qgLYqsvUAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "GET /socket.io/?EIO=4&transport=websocket&sid=5C8-0sR8qgLYqsvUAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "GET /socket.io/?EIO=4&transport=polling&t=mcaienfz HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "POST /socket.io/?EIO=4&transport=polling&t=mcaiqd8j&sid=uxXiplpxwX8hebC5AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "GET /socket.io/?EIO=4&transport=polling&t=mcairb8o&sid=uxXiplpxwX8hebC5AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "GET /socket.io/?EIO=4&transport=polling&t=mcamqr55&sid=uxXiplpxwX8hebC5AAAG HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:33] "POST /socket.io/?EIO=4&transport=polling&t=mcamrlws&sid=uxXiplpxwX8hebC5AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:36] "GET /socket.io/?EIO=4&transport=websocket&sid=uxXiplpxwX8hebC5AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:36] "GET /socket.io/?EIO=4&transport=polling&t=mcdasdj9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:36] "POST /socket.io/?EIO=4&transport=polling&t=mcdb7unx&sid=dhoSdK2IgiRymrAgAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 19:59:36] "GET /socket.io/?EIO=4&transport=polling&t=mcdb7apq&sid=dhoSdK2IgiRymrAgAAAI HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Adding product: {'id': 1, 'name': 'Remote', 'category': 'Furniture', 'price': 200, 'stock': 50, 'status': 'Active'}
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "GET /socket.io/?EIO=4&transport=websocket&sid=dhoSdK2IgiRymrAgAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "GET /socket.io/?EIO=4&transport=polling&t=mnqvux2v HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "POST /socket.io/?EIO=4&transport=polling&t=mnqw7sru&sid=Jn5A3Q4UdrfQkzeMAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "GET /socket.io/?EIO=4&transport=polling&t=mnqw7qrz&sid=Jn5A3Q4UdrfQkzeMAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "GET /socket.io/?EIO=4&transport=polling&t=mnr0jl85&sid=Jn5A3Q4UdrfQkzeMAAAK HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:27] "POST /socket.io/?EIO=4&transport=polling&t=mnr0kkw9&sid=Jn5A3Q4UdrfQkzeMAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:08:58] "GET /socket.io/?EIO=4&transport=websocket&sid=Jn5A3Q4UdrfQkzeMAAAK HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:10:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:10:43] "GET /socket.io/?EIO=4&transport=polling&t=mqnw64gq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:10:43] "POST /socket.io/?EIO=4&transport=polling&t=mqnws9bj&sid=sFrQ0qBId9GFpS0pAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:10:43] "GET /socket.io/?EIO=4&transport=polling&t=mqnws7oq&sid=sFrQ0qBId9GFpS0pAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:10:43] "GET /socket.io/?EIO=4&transport=polling&t=mqo091bq&sid=sFrQ0qBId9GFpS0pAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Deleting product with ID 1
+INFO:root:Fetching all products
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:31] "GET /socket.io/?EIO=4&transport=polling&t=n7462dhx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:31] "POST /socket.io/?EIO=4&transport=polling&t=n746i9o0&sid=O2-pkrntFya0os59AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:31] "GET /socket.io/?EIO=4&transport=polling&t=n746jluq&sid=O2-pkrntFya0os59AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:31] "GET /socket.io/?EIO=4&transport=polling&t=n747d9u1&sid=O2-pkrntFya0os59AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:31] "POST /socket.io/?EIO=4&transport=polling&t=n747e2vu&sid=O2-pkrntFya0os59AAAA HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT64
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:52] "GET /socket.io/?EIO=4&transport=websocket&sid=O2-pkrntFya0os59AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:52] "GET /socket.io/?EIO=4&transport=polling&t=n7kdscie HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:52] "POST /socket.io/?EIO=4&transport=polling&t=n7kdvpnl&sid=cs60Yi2akzNPKLfNAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:52] "GET /socket.io/?EIO=4&transport=polling&t=n7kdvke4&sid=cs60Yi2akzNPKLfNAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:23:52] "GET /socket.io/?EIO=4&transport=polling&t=n7kewg4c&sid=cs60Yi2akzNPKLfNAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "GET /socket.io/?EIO=4&transport=websocket&sid=cs60Yi2akzNPKLfNAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "GET /socket.io/?EIO=4&transport=polling&t=n84z1rt1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "POST /socket.io/?EIO=4&transport=polling&t=n84zapfh&sid=WKb-Y3YZD-WKzUNWAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "GET /socket.io/?EIO=4&transport=polling&t=n84zbmxt&sid=WKb-Y3YZD-WKzUNWAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "GET /socket.io/?EIO=4&transport=polling&t=n852ni8m&sid=WKb-Y3YZD-WKzUNWAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [01/Jan/2025 20:24:19] "POST /socket.io/?EIO=4&transport=polling&t=n852nvlj&sid=WKb-Y3YZD-WKzUNWAAAE HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:37] "GET /socket.io/?EIO=4&transport=polling&t=qeljjxuj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:37] "POST /socket.io/?EIO=4&transport=polling&t=qeljqdfn&sid=NKoLdto6v1nW59rsAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:37] "GET /socket.io/?EIO=4&transport=polling&t=qeljroyi&sid=NKoLdto6v1nW59rsAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:37] "GET /socket.io/?EIO=4&transport=polling&t=qelk45g0&sid=NKoLdto6v1nW59rsAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:37] "POST /socket.io/?EIO=4&transport=polling&t=qelk4322&sid=NKoLdto6v1nW59rsAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:53] "GET /socket.io/?EIO=4&transport=websocket&sid=NKoLdto6v1nW59rsAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:54] "GET /socket.io/?EIO=4&transport=polling&t=qexyqci1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:54] "POST /socket.io/?EIO=4&transport=polling&t=qexz2oes&sid=6plWVo9VYPgXKWp8AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:54] "GET /socket.io/?EIO=4&transport=polling&t=qexz38pr&sid=6plWVo9VYPgXKWp8AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:16:54] "GET /socket.io/?EIO=4&transport=polling&t=qexzbuq9&sid=6plWVo9VYPgXKWp8AAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT64
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:17:57] "GET /socket.io/?EIO=4&transport=websocket&sid=6plWVo9VYPgXKWp8AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:18:18] "GET /socket.io/?EIO=4&transport=polling&t=qgr8s2yw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:18:18] "POST /socket.io/?EIO=4&transport=polling&t=qgr8y16l&sid=fqjQek4EpFtJ1XeqAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:18:18] "GET /socket.io/?EIO=4&transport=polling&t=qgr8zex6&sid=fqjQek4EpFtJ1XeqAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "GET /socket.io/?EIO=4&transport=websocket&sid=fqjQek4EpFtJ1XeqAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "GET /socket.io/?EIO=4&transport=polling&t=qmzqlqz6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "POST /socket.io/?EIO=4&transport=polling&t=qmzr0yn1&sid=sTem1pTBwmOQH1guAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "GET /socket.io/?EIO=4&transport=polling&t=qmzr1bdq&sid=sTem1pTBwmOQH1guAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "GET /socket.io/?EIO=4&transport=polling&t=qmzva3xw&sid=sTem1pTBwmOQH1guAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:09] "GET /socket.io/?EIO=4&transport=polling&t=qmzvgv8h&sid=sTem1pTBwmOQH1guAAAG HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:18] "GET /socket.io/?EIO=4&transport=websocket&sid=sTem1pTBwmOQH1guAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:18] "GET /socket.io/?EIO=4&transport=polling&t=qn6xzv7b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:18] "POST /socket.io/?EIO=4&transport=polling&t=qn6ycvcm&sid=QVrVuAXw1FkruKa4AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:18] "GET /socket.io/?EIO=4&transport=polling&t=qn6yc550&sid=QVrVuAXw1FkruKa4AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:19] "GET /socket.io/?EIO=4&transport=polling&t=qn71pohe&sid=QVrVuAXw1FkruKa4AAAI HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:23:19] "POST /socket.io/?EIO=4&transport=polling&t=qn71pkcd&sid=QVrVuAXw1FkruKa4AAAI HTTP/1.1" 200 -
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT64
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:41] "GET /socket.io/?EIO=4&transport=websocket&sid=QVrVuAXw1FkruKa4AAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:41] "GET /socket.io/?EIO=4&transport=polling&t=qq8twrqu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:41] "POST /socket.io/?EIO=4&transport=polling&t=qq8uiae3&sid=4FWKQ00ujNOVTYqQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:41] "GET /socket.io/?EIO=4&transport=polling&t=qq8uimdy&sid=4FWKQ00ujNOVTYqQAAAK HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "GET /socket.io/?EIO=4&transport=websocket&sid=4FWKQ00ujNOVTYqQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "GET /socket.io/?EIO=4&transport=polling&t=qq9f91gw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "POST /socket.io/?EIO=4&transport=polling&t=qq9flyxv&sid=l_QQ9Zib62oLkcNGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "GET /socket.io/?EIO=4&transport=polling&t=qq9fmxld&sid=l_QQ9Zib62oLkcNGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "GET /socket.io/?EIO=4&transport=polling&t=qq9izvje&sid=l_QQ9Zib62oLkcNGAAAM HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:25:42] "POST /socket.io/?EIO=4&transport=polling&t=qq9j15xc&sid=l_QQ9Zib62oLkcNGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "GET /socket.io/?EIO=4&transport=websocket&sid=l_QQ9Zib62oLkcNGAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "GET /socket.io/?EIO=4&transport=polling&t=qri6tt9z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "POST /socket.io/?EIO=4&transport=polling&t=qri7d8gj&sid=Ebl9BkfKh9nHE_udAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "GET /socket.io/?EIO=4&transport=polling&t=qri7e4ub&sid=Ebl9BkfKh9nHE_udAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "GET /socket.io/?EIO=4&transport=polling&t=qrib1ad1&sid=Ebl9BkfKh9nHE_udAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:40] "GET /socket.io/?EIO=4&transport=websocket&sid=Ebl9BkfKh9nHE_udAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:41] "GET /socket.io/?EIO=4&transport=polling&t=qrj0ddp7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:41] "POST /socket.io/?EIO=4&transport=polling&t=qrj0kubc&sid=pehZD39HDmfxf8t8AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:41] "GET /socket.io/?EIO=4&transport=polling&t=qrj0lxec&sid=pehZD39HDmfxf8t8AAAQ HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:51] "GET /socket.io/?EIO=4&transport=websocket&sid=pehZD39HDmfxf8t8AAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:51] "GET /socket.io/?EIO=4&transport=polling&t=qrr7l6q3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:51] "POST /socket.io/?EIO=4&transport=polling&t=qrr7tc3t&sid=uz02CB0LpIY2r8vLAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:51] "GET /socket.io/?EIO=4&transport=polling&t=qrr7umhr&sid=uz02CB0LpIY2r8vLAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:26:51] "GET /socket.io/?EIO=4&transport=polling&t=qrrb30et&sid=uz02CB0LpIY2r8vLAAAS HTTP/1.1" 200 -
+INFO:root:Fetching all products
+ERROR:root:Error adding product: Conversion Error: Could not convert string '' to INT64
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "GET /socket.io/?EIO=4&transport=websocket&sid=uz02CB0LpIY2r8vLAAAS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "GET /socket.io/?EIO=4&transport=polling&t=qu8b3gkn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "POST /socket.io/?EIO=4&transport=polling&t=qu8be8db&sid=k2yixCX1GRy5gCzzAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "GET /socket.io/?EIO=4&transport=polling&t=qu8bff4j&sid=k2yixCX1GRy5gCzzAAAU HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "GET /socket.io/?EIO=4&transport=polling&t=qu8gbzpn&sid=k2yixCX1GRy5gCzzAAAU HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:28:47] "POST /socket.io/?EIO=4&transport=polling&t=qu8gcmqn&sid=k2yixCX1GRy5gCzzAAAU HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:46] "GET /socket.io/?EIO=4&transport=polling&t=qvhqqzym HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:46] "POST /socket.io/?EIO=4&transport=polling&t=qvhqw3f7&sid=5jSMBRL_3PK9sowiAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:46] "GET /socket.io/?EIO=4&transport=polling&t=qvhqxhx3&sid=5jSMBRL_3PK9sowiAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:46] "GET /socket.io/?EIO=4&transport=polling&t=qvhrcf73&sid=5jSMBRL_3PK9sowiAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:29:46] "POST /socket.io/?EIO=4&transport=polling&t=qvhrcgd0&sid=5jSMBRL_3PK9sowiAAAA HTTP/1.1" 200 -
+INFO:root:Received data for adding product: {'id': 1735968604884, 'name': 'Remote', 'category': 'Electronics', 'price': 250, 'stock': 12, 'status': 'Active'}
+INFO:root:Deleting product with ID 1735968604884
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:30:40] "GET /socket.io/?EIO=4&transport=websocket&sid=5jSMBRL_3PK9sowiAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:30:40] "GET /socket.io/?EIO=4&transport=polling&t=qwnuscun HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:30:40] "POST /socket.io/?EIO=4&transport=polling&t=qwnv0tz5&sid=ZObUfhj7-WD6ETLvAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:30:40] "GET /socket.io/?EIO=4&transport=polling&t=qwnv1iwa&sid=ZObUfhj7-WD6ETLvAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 00:30:40] "GET /socket.io/?EIO=4&transport=polling&t=qwnyku9a&sid=ZObUfhj7-WD6ETLvAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 01:18:01] "GET /socket.io/?EIO=4&transport=websocket&sid=ZObUfhj7-WD6ETLvAAAC HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:45] "GET /socket.io/?EIO=4&transport=polling&t=mybduk08 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:45] "POST /socket.io/?EIO=4&transport=polling&t=mybe4ts2&sid=FrApVBIpBGkzyBXMAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:45] "GET /socket.io/?EIO=4&transport=polling&t=mybe5b41&sid=FrApVBIpBGkzyBXMAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:45] "GET /socket.io/?EIO=4&transport=polling&t=mybei3d1&sid=FrApVBIpBGkzyBXMAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:27:45] "POST /socket.io/?EIO=4&transport=polling&t=mybei7ab&sid=FrApVBIpBGkzyBXMAAAA HTTP/1.1" 200 -
+INFO:root:Received data for adding product: {'id': 1736022484321, 'name': 'Remote', 'category': 'Furniture', 'price': 250, 'stock': 50, 'status': 'Active'}
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "GET /socket.io/?EIO=4&transport=websocket&sid=FrApVBIpBGkzyBXMAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "GET /socket.io/?EIO=4&transport=polling&t=n1x06i45 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "POST /socket.io/?EIO=4&transport=polling&t=n1x0jtxe&sid=Z5n4J-h9S2h3g1eqAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "GET /socket.io/?EIO=4&transport=polling&t=n1x0k9i0&sid=Z5n4J-h9S2h3g1eqAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "POST /socket.io/?EIO=4&transport=polling&t=n1x4sr2x&sid=Z5n4J-h9S2h3g1eqAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:30:33] "GET /socket.io/?EIO=4&transport=polling&t=n1x4s5za&sid=Z5n4J-h9S2h3g1eqAAAC HTTP/1.1" 200 -
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:35] "GET /socket.io/?EIO=4&transport=polling&t=n38tzbe8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:35] "POST /socket.io/?EIO=4&transport=polling&t=n38u5f9e&sid=jjS9EKDeGb-mdI4vAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:35] "GET /socket.io/?EIO=4&transport=polling&t=n38u61es&sid=jjS9EKDeGb-mdI4vAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:35] "GET /socket.io/?EIO=4&transport=polling&t=n38us5w0&sid=jjS9EKDeGb-mdI4vAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Deleting product with ID 1736022484321
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "GET /socket.io/?EIO=4&transport=websocket&sid=jjS9EKDeGb-mdI4vAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "GET /socket.io/?EIO=4&transport=polling&t=n3lp5ixs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "POST /socket.io/?EIO=4&transport=polling&t=n3lpdh9e&sid=gAoFpyV0tW-XreDMAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "GET /socket.io/?EIO=4&transport=polling&t=n3lpdy75&sid=gAoFpyV0tW-XreDMAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "GET /socket.io/?EIO=4&transport=polling&t=n3lsrp1p&sid=gAoFpyV0tW-XreDMAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:31:52] "POST /socket.io/?EIO=4&transport=polling&t=n3lsrj6c&sid=gAoFpyV0tW-XreDMAAAC HTTP/1.1" 200 -
+INFO:root:Updating product with ID 8 on field name with value Test12
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:32:48] "GET /socket.io/?EIO=4&transport=websocket&sid=gAoFpyV0tW-XreDMAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:32:48] "GET /socket.io/?EIO=4&transport=polling&t=n4t8rtm4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:32:48] "POST /socket.io/?EIO=4&transport=polling&t=n4t90bc3&sid=UZhDUqZmx-B1Y4CDAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:32:48] "GET /socket.io/?EIO=4&transport=polling&t=n4t909xm&sid=UZhDUqZmx-B1Y4CDAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Starting server on port 5000
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:08] "GET /socket.io/?EIO=4&transport=polling&t=npte5cp7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:08] "POST /socket.io/?EIO=4&transport=polling&t=nptelvgc&sid=JI0LruzojyaGqtMjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:08] "GET /socket.io/?EIO=4&transport=polling&t=npteljc9&sid=JI0LruzojyaGqtMjAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:08] "POST /socket.io/?EIO=4&transport=polling&t=nptfkvu1&sid=JI0LruzojyaGqtMjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:08] "GET /socket.io/?EIO=4&transport=polling&t=nptfkpm6&sid=JI0LruzojyaGqtMjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:49:11] "GET / HTTP/1.1" 200 -
+INFO:root:Deleting product with ID 9
+INFO:root:Fetching all products
+INFO:root:Deleting product with ID 10
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:50] "GET /socket.io/?EIO=4&transport=websocket&sid=JI0LruzojyaGqtMjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:50] "GET /socket.io/?EIO=4&transport=polling&t=nvukwdfa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:51] "GET /socket.io/?EIO=4&transport=polling&t=nvvbeye5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:53] "GET /socket.io/?EIO=4&transport=polling&t=nvwuyztl HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:55] "GET /socket.io/?EIO=4&transport=polling&t=nvyo5ldh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:55] "POST /socket.io/?EIO=4&transport=polling&t=nvyo9ykk&sid=HoHf6XxK1rW2uvCwAAAF HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:55] "GET /socket.io/?EIO=4&transport=polling&t=nvyo9751&sid=HoHf6XxK1rW2uvCwAAAF HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 15:53:55] "GET /socket.io/?EIO=4&transport=polling&t=nvyp9ovn&sid=HoHf6XxK1rW2uvCwAAAF HTTP/1.1" 200 -
+INFO:root:Fetching all products
