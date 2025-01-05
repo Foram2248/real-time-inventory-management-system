@@ -26,5 +26,5 @@ A real-time inventory management system built using **Svelte**, **Flask**, **Soc
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/real-time-inventory-management.git
+git clone [https://github.com/your-username/real-time-inventory-management.git](https://github.com/Foram2248/real-time-inventory-management-system.git)
 cd real-time-inventory-management
