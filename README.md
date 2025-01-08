@@ -7,12 +7,16 @@ The Real-Time Inventory Management System provides a seamless solution where use
 
 ---
 
-##  Features
+## **Features**
 
-- **Real-Time Updates**: Changes made in the inventory are instantly reflected across all connected clients.
-- **Add, Update, and Delete Products**: Easily manage inventory through a user-friendly interface.
-- **Scalable Backend**: Powered by Flask and WebSockets for seamless communication.
-- **Efficient Database**: DuckDB ensures fast and lightweight data storage.
+- **Real-Time Updates**: Instantly reflect inventory changes across all connected clients.  
+- **Product Management**: Add, update, and easily delete products.  
+- **Low Stock Monitoring**: Identify products with low stock levels.  
+- **Category-Based Insights**: Analyze sales and stock levels at the category and product levels.  
+- **Sales Data Table**: View detailed sales data, including total sales value and sale duration.  
+- **Lightweight Backend**: Built using Flask with efficient WebSocket communication.  
+- **Powerful Database**: Used DuckDB which provides fast, analytical query capabilities.  
+- **Modern UI**: A responsive and clean tab-based interface for seamless navigation.  
 
 ---
 ##  Tech Stack
@@ -29,10 +33,21 @@ The Real-Time Inventory Management System provides a seamless solution where use
 - npm (v6 or later)
 - Python (v3.9 or later)
 
-## Project Structure
-- flask-server: Flask application with Flask-SocketIO for real-time communication and DuckDB for database management.
-- svelte-app: Svelte application using Flowbite UI framework for a modern table display and WebSocket communication.
+### **Backend**
+- Flask with WebSocket support for real-time communication.  
+- DuckDB is used as the database for efficient storage and advanced queries.  
+- APIs provide endpoints for fetching and managing inventory, sales, and insights.  
 
+### **Frontend**
+- Built with Svelte, offering a user-friendly and modern interface.  
+- Tab-based navigation allows seamless switching between inventory, sales, and monitoring features.  
+- Real-time updates are handled via WebSocket communication with the backend.  
+
+### **Database**
+- DuckDB serves as the database for managing inventory, sales, and category data.  
+- Advanced query features like grouping sets, multi-level joins, and unions are utilized.  
+
+---
 
 ## 🔧 Installation and Setup
 
