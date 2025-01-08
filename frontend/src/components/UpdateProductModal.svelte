@@ -4,14 +4,43 @@
     export let product;
   
     let updatedProduct = { ...product };
+    let categories = []; // To store categories fetched from the backend
+  
+    // Fetch categories on mount
+    const fetchCategories = () => {
+      fetch("http://localhost:5000/categories")
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.success) {
+            categories = data.data;
+  
+            // Set category_id for updatedProduct if only category is provided
+            if (updatedProduct.category && !updatedProduct.category_id) {
+              const matchedCategory = categories.find(
+                (cat) => cat.category_name === updatedProduct.category
+              );
+              if (matchedCategory) {
+                updatedProduct.category_id = matchedCategory.id;
+              }
+            }
+          } else {
+            console.error("Error fetching categories:", data.error);
+            alert("Failed to fetch categories.");
+          }
+        })
+        .catch((error) => {
+          console.error("Error fetching categories:", error);
+          alert("Failed to fetch categories.");
+        });
+    };
   
     const updateProduct = () => {
       // Emit WebSocket events for each updated field
       if (updatedProduct.name !== product.name) {
         socket.emit("update_product", { id: product.id, field: "name", value: updatedProduct.name });
       }
-      if (updatedProduct.category !== product.category) {
-        socket.emit("update_product", { id: product.id, field: "category", value: updatedProduct.category });
+      if (updatedProduct.category_id !== product.category_id) {
+        socket.emit("update_product", { id: product.id, field: "category_id", value: updatedProduct.category_id });
       }
       if (updatedProduct.price !== product.price) {
         socket.emit("update_product", { id: product.id, field: "price", value: updatedProduct.price });
@@ -24,6 +53,9 @@
       }
       showUpdateModal = false;
     };
+  
+    // Fetch categories on component mount
+    fetchCategories();
   </script>
   
   <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
@@ -36,7 +68,16 @@
         </div>
         <div>
           <label for="category" class="block text-sm font-medium">Category</label>
-          <input id="category" class="border rounded w-full p-2" bind:value={updatedProduct.category} />
+          <select
+            id="category"
+            class="border rounded w-full p-2"
+            bind:value={updatedProduct.category_id}
+          >
+            <option value="" disabled>Select a category</option>
+            {#each categories as category}
+              <option value={category.id}>{category.category_name}</option>
+            {/each}
+          </select>
         </div>
         <div>
           <label for="price" class="block text-sm font-medium">Price</label>

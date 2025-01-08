@@ -13,7 +13,7 @@
   let showUpdateModal = false;
   let showDeleteModal = false;
   let selectedProduct = null;
-
+  console.log("Component called.....")
   onMount(() => {
     socket.emit("get_products");
 
