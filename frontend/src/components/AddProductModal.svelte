@@ -19,7 +19,7 @@
     // Fetch categories from backend
     const fetchCategories = async () => {
         try {
-            const response = await fetch("http://localhost:5000/categories");
+            const response = await fetch("https://inventory-backend-service-178433520974.us-central1.run.app/categories");
             const data = await response.json();
 
             if (data.success) {

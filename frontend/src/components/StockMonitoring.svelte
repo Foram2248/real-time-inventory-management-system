@@ -7,7 +7,7 @@
 	// Fetch low stock products on component mount
 	onMount(async () => {
 		try {
-			const response = await fetch("http://localhost:5000/low-stock");
+			const response = await fetch("https://inventory-backend-service-178433520974.us-central1.run.app/low-stock");
 			const data = await response.json();
 			if (data.success) {
 				lowStockProducts = data.data;

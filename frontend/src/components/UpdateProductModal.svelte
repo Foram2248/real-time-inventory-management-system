@@ -8,7 +8,7 @@
   
     // Fetch categories on mount
     const fetchCategories = () => {
-      fetch("http://localhost:5000/categories")
+      fetch("https://inventory-backend-service-178433520974.us-central1.run.app/categories")
         .then((response) => response.json())
         .then((data) => {
           if (data.success) {

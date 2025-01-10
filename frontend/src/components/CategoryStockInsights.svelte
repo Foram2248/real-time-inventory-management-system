@@ -6,7 +6,7 @@
 
     const fetchInsights = async () => {
         try {
-            const response = await fetch("http://localhost:5000/category-stock-insights");
+            const response = await fetch("https://inventory-backend-service-178433520974.us-central1.run.app/category-stock-insights");
             const data = await response.json();
             if (data.success) {
                 insights = data.data;

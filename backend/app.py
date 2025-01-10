@@ -3,7 +3,7 @@ from flask_socketio import SocketIO
 from flask_cors import CORS
 import duckdb
 import logging
-
+import os
 # Setup Flask here
 app = Flask(__name__)
 CORS(app)
@@ -213,5 +213,6 @@ def delete_product(data):
         socketio.emit("error", {"message": "Error deleting product"})
 
 if __name__ == "__main__":
-    logging.info("Starting server on port 5000")
-    socketio.run(app, host="0.0.0.0", port=5000)
+    port = int(os.environ.get("PORT", 8080))
+    socketio.run(app, host="0.0.0.0", port=port, allow_unsafe_werkzeug=True)
+

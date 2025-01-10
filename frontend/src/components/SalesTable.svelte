@@ -7,7 +7,7 @@
     // Fetch sales data on mount
     const fetchSales = async () => {
         try {
-            const response = await fetch("http://localhost:5000/sales");
+            const response = await fetch("https://inventory-backend-service-178433520974.us-central1.run.app/sales");
             const data = await response.json();
             if (data.success) {
                 sales = data.data;

@@ -7,7 +7,7 @@
   import io from "socket.io-client";
 
   let products = [];
-  const socket = io("http://localhost:5000");
+  const socket = io("https://inventory-backend-service-178433520974.us-central1.run.app");
 
   let showAddModal = false;
   let showUpdateModal = false;
