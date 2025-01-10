@@ -167,38 +167,6 @@ def get_category_stock_insights():
     except Exception as e:
         logging.error(f"Error fetching category stock insights: {str(e)}")
         return jsonify({"success": False, "error": str(e)}), 500
-
-@app.route("/sales", methods=["GET"])
-def get_sales():
-    try:
-        query = """
-        SELECT 
-            sale_id,
-            product_id,
-            product_name,
-            quantity,
-            sale_date,
-            sale_duration_days,
-            total_sales_value
-        FROM sales_with_calculations;  -- Corrected view name
-        """
-        result = connection.execute(query).fetchall()
-        sales = [
-            {
-                "sale_id": r[0],
-                "product_id": r[1],
-                "product_name": r[2],
-                "quantity": r[3],
-                "sale_date": r[4],
-                "sale_duration_days": r[5],
-                "total_sales_value": r[6],
-            }
-            for r in result
-        ]
-        return jsonify({"success": True, "data": sales}), 200
-    except Exception as e:
-        logging.error(f"Error fetching sales data: {str(e)}")
-        return jsonify({"success": False, "error": str(e)}), 500
     
 # delete_product WebSocket events 
 @socketio.on("delete_product")
@@ -213,6 +181,6 @@ def delete_product(data):
         socketio.emit("error", {"message": "Error deleting product"})
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 5000))
     socketio.run(app, host="0.0.0.0", port=port, allow_unsafe_werkzeug=True)
 

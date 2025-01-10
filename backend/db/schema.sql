@@ -14,27 +14,6 @@ CREATE TABLE products (
     status VARCHAR NOT NULL
 );
 
--- Sales Table
-CREATE TABLE sales (
-    sale_id INTEGER PRIMARY KEY,
-    product_id INTEGER REFERENCES products(id),
-    quantity INTEGER NOT NULL,
-    sale_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Create a view to calculate sale duration and total sales value dynamically
-CREATE VIEW sales_with_calculations AS
-SELECT 
-    s.sale_id,
-    s.product_id,
-    p.name AS product_name,
-    s.quantity,
-    s.sale_date,
-    date_diff('day', s.sale_date, CURRENT_TIMESTAMP) AS sale_duration_days,
-    s.quantity * p.price AS total_sales_value
-FROM sales s
-JOIN products p ON s.product_id = p.id;
-
 -- Insert data into categories table
 INSERT INTO categories (id, category_name) VALUES
 (1, 'Electronics'),
@@ -68,11 +47,3 @@ INSERT INTO products (id, name, category_id, price, stock, status) VALUES
 (19, 'Shampoo', 7, 5.99, 80, 'Active'),
 (20, 'Lipstick', 7, 9.99, 50, 'Active');
 
--- Insert data into sales table
-INSERT INTO sales (sale_id, product_id, quantity, sale_date) VALUES
-(1, 1, 5, '2025-01-01 10:00:00'),
-(2, 4, 2, '2025-01-02 14:00:00'),
-(3, 5, 3, '2025-01-03 09:30:00'),
-(4, 11, 10, '2025-01-04 11:15:00'),
-(5, 13, 20, '2025-01-05 12:45:00'),
-(6, 17, 3, '2025-01-06 15:20:00');

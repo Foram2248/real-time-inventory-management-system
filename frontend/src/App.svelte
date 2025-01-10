@@ -2,7 +2,6 @@
     import ProductTable from "./components/ProductTable.svelte";
     import StockMonitoring from "./components/StockMonitoring.svelte";
     import CategoryStockInsights from "./components/CategoryStockInsights.svelte";
-    import SalesTable from "./components/SalesTable.svelte";
 
     let activeComponent = "ProductTable"; // Track active component
 
@@ -34,13 +33,7 @@
             on:click={() => setActiveComponent("CategoryStockInsights")}
         >
             Category Insights
-        </button>
-        <button 
-			class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" 
-			on:click={() => setActiveComponent("SalesTable")}
-		>
-			Sales
-		</button>
+    </button>
     </nav>
 
     <section class="p-6">
@@ -50,8 +43,6 @@
             <StockMonitoring />
         {:else if activeComponent === "CategoryStockInsights"}
             <CategoryStockInsights />
-            {:else if activeComponent === "SalesTable"}
-			<SalesTable />
         {/if}
     </section>
 </main>
