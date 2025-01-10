@@ -17,7 +17,7 @@
 
     <nav class="bg-gray-200 py-4 px-8 flex space-x-4">
         <button
-            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+            class="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600"
             on:click={() => setActiveComponent("ProductTable")}
         >
             Inventory
