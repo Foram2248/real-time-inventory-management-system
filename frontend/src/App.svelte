@@ -1,48 +1,62 @@
 <script>
-    import ProductTable from "./components/ProductTable.svelte";
-    import StockMonitoring from "./components/StockMonitoring.svelte";
-    import CategoryStockInsights from "./components/CategoryStockInsights.svelte";
+  import { Router, Route, Link, navigate } from "svelte-routing";
+  import { onMount } from "svelte";
+  import { initializeWebsocket } from "./services/websocket";
 
-    let activeComponent = "ProductTable"; // Track active component
-
-    const setActiveComponent = (component) => {
-        activeComponent = component;
-    };
+  // Initialize WebSocket on app load
+  onMount(() => {
+    initializeWebsocket();
+    navigate("/inventory"); // Set the default route
+  });
 </script>
 
 <main class="min-h-screen bg-gray-100">
-    <header class="bg-blue-500 text-white py-6 px-8">
-        <h1 class="text-2xl font-bold">Real-Time Product Inventory Management</h1>
-    </header>
+  <!-- Header -->
+  <header
+    class="bg-blue-500 text-white py-6 px-8 flex justify-between items-center"
+  >
+    <h1 id="main-heading" class="text-2xl font-bold">
+      Real-Time Product Inventory Management
+    </h1>
+  </header>
 
+  <!-- Navigation -->
+  <Router>
     <nav class="bg-gray-200 py-4 px-8 flex space-x-4">
-        <button
-            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            on:click={() => setActiveComponent("ProductTable")}
-        >
-            Inventory
-        </button>
-        <button
-            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            on:click={() => setActiveComponent("LowStockHighDemand")}
-        >
-            Low Stock
-        </button>
-        <button
-            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
-            on:click={() => setActiveComponent("CategoryStockInsights")}
-        >
-            Category Insights
-    </button>
+      <Link
+        to="/inventory"
+        class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+      >
+        Inventory
+      </Link>
+      <Link
+        to="/lowstock"
+        class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+      >
+        Low Stock
+      </Link>
+      <Link
+        to="/categoryinsights"
+        class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+      >
+        Category Insights
+      </Link>
     </nav>
 
+    <!-- Routes -->
     <section class="p-6">
-        {#if activeComponent === "ProductTable"}
-            <ProductTable />
-        {:else if activeComponent === "LowStockHighDemand"}
-            <StockMonitoring />
-        {:else if activeComponent === "CategoryStockInsights"}
-            <CategoryStockInsights />
-        {/if}
+      <Route
+        path="/inventory"
+        component={() => import("./pages/ProductTable.svelte")}
+      />
+      <Route
+        path="/lowstock"
+        component={() => import("./pages/StockMonitoring.svelte")}
+      />
+      <Route
+        path="/categoryinsights"
+        component={() => import("./pages/CategoryStockInsights.svelte")}
+      />
     </section>
+  </Router>
 </main>

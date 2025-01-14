@@ -1,10 +1,12 @@
 from flask import Flask, jsonify
+from flask import Flask, jsonify
 from flask_socketio import SocketIO
 from flask_cors import CORS
 import duckdb
 import logging
 import os
 # Setup Flask here
+# Note: specifying static_folder='public' so Flask knows where your built frontend is
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
