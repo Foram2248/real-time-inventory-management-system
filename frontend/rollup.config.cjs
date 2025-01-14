@@ -37,9 +37,9 @@ module.exports = {
   input: "src/main.js",
   output: {
     sourcemap: true,
-    format: "esm",
     name: "app",
-    dir: "public/build",
+    format: "esm", // Change "iife" to "esm"
+    dir: "public/build", // Use "dir" for multiple chunks instead of "file"
   },
   plugins: [
     svelte({
@@ -62,8 +62,10 @@ module.exports = {
 
     // NEW: Replace plugin
     replace({
-      "process.env.API_BASE_URL": JSON.stringify(process.env.API_BASE_URL),
       preventAssignment: true,
+      "process.env.WEBSOCKET_URL": JSON.stringify(
+        process.env.WEBSOCKET_URL || "http://localhost:5000"
+      ),
     }),
     !production && serve(),
     !production && livereload("public"),

@@ -1,4 +1,5 @@
 <script>
+  console.log("addprpduct called...");
   import { onMount } from "svelte";
 
   // Import services
@@ -7,7 +8,6 @@
 
   // Props
   export let showAddModal;
-
   // Local state
   let newProduct = {
     id: "",
@@ -26,6 +26,7 @@
   const loadCategories = async () => {
     try {
       const data = await fetchCategories(); // Fetch categories from service
+      console.log("categories ....", data);
       categories = data;
     } catch (error) {
       fetchError = "Failed to fetch categories. Please try again.";
@@ -69,6 +70,7 @@
 
   // Load categories on mount
   onMount(() => {
+    console.log("component called .......");
     loadCategories();
   });
 </script>
