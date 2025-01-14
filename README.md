@@ -12,8 +12,7 @@ The Real-Time Inventory Management System provides a seamless solution where use
 - **Real-Time Updates**: Instantly reflect inventory changes across all connected clients.  
 - **Product Management**: Add, update, and easily delete products.  
 - **Low Stock Monitoring**: Identify products with low stock levels.  
-- **Category-Based Insights**: Analyze sales and stock levels at the category and product levels.  
-- **Sales Data Table**: View detailed sales data, including total sales value and sale duration.  
+- **Category-Based Insights**: Analyze sales and stock levels at the category and product levels.    
 - **Lightweight Backend**: Built using Flask with efficient WebSocket communication.  
 - **Powerful Database**: Used DuckDB which provides fast, analytical query capabilities.  
 - **Modern UI**: A responsive and clean tab-based interface for seamless navigation.  
@@ -40,7 +39,7 @@ The Real-Time Inventory Management System provides a seamless solution where use
 
 ### **Frontend**
 - Built with Svelte, offering a user-friendly and modern interface.  
-- Tab-based navigation allows seamless switching between inventory, sales, and monitoring features.  
+- Tab-based navigation allows seamless switching between inventory and monitoring features.  
 - Real-time updates are handled via WebSocket communication with the backend.  
 
 ### **Database**
