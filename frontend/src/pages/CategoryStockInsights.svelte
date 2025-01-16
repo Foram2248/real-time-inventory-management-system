@@ -1,12 +1,11 @@
 <script>
   import { onMount } from "svelte";
-  // Import the method from the services folder
   import { fetchCategoryStockInsights } from "../services/categoryInsights";
 
   let insights = [];
   let loading = true;
 
-  // Load category stock insights using the service method
+  // Getting category stock insights
   const loadInsights = async () => {
     try {
       const data = await fetchCategoryStockInsights();
@@ -24,7 +23,6 @@
     }
   };
 
-  // Fetch insights on component mount
   onMount(loadInsights);
 </script>
 

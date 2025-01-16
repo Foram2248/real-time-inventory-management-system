@@ -1,27 +1,23 @@
 <script>
-  // Import the deleteProduct method from the inventory service
   import { deleteProduct } from "../services/inventory";
 
-  export let showDeleteModal; // Controls modal visibility
-  export let product; // The product to be deleted
+  export let showDeleteModal;
+  export let product;
 
   // Function to handle product deletion
   const doDeleteProduct = async () => {
     try {
-      // Call the deleteProduct function with the product's ID
       await deleteProduct(product.id);
       alert("Product deleted successfully!");
     } catch (error) {
-      console.error("Error deleting product:", error);
-      alert("Failed to delete the product. Please try again.");
+      console.error("Error deleting product:", error.message);
+      alert(`Error deleting product: ${error.message}`);
     } finally {
-      // Close the modal regardless of success or failure
       showDeleteModal = false;
     }
   };
 </script>
 
-<!-- Conditional rendering for the delete modal -->
 {#if showDeleteModal}
   <div
     class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"

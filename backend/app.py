@@ -1,29 +1,25 @@
 from flask import Flask, jsonify
-from flask import Flask, jsonify
 from flask_socketio import SocketIO
 from flask_cors import CORS
 import duckdb
 import logging
 import os
+
 # Setup Flask here
-# Note: specifying static_folder='public' so Flask knows where your built frontend is
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
-# Setup database connection where DB_PATH = "db/product.db"
 DB_PATH = "db/product.db"
 connection = duckdb.connect(DB_PATH)
 
-# Setup logging to get all logs while app is running
 logging.basicConfig(filename="logs/app.log", level=logging.INFO)
 
-# create root route
 @app.route("/")
 def index():
     return "<h1>Welcome to the Real-Time Inventory Management System Backend</h1>"
 
-# Fetch all categories
+# Method to fetch all categories
 @app.route("/categories", methods=["GET"])
 def get_categories():
     try:
@@ -35,7 +31,7 @@ def get_categories():
         logging.error(f"Error fetching categories: {str(e)}")
         return jsonify({"success": False, "error": str(e)}), 500
 
-# All WebSocket events 
+# Method to get all products 
 @socketio.on("get_products")
 def get_products():
     try:
@@ -61,49 +57,39 @@ def get_products():
         logging.error(f"Error fetching products: {str(e)}")
         socketio.emit("error", {"message": "Error fetching products"})
 
-# Add product
+# Method to add product
 @socketio.on("add_product")
 def add_product(data, ack=None):
     try:
         max_id_query = connection.execute("SELECT MAX(id) FROM products").fetchone()
         max_id = max_id_query[0] if max_id_query[0] is not None else 0
-
-        # Assign the next ID
         data["id"] = max_id + 1
-
         connection.execute(
             "INSERT INTO products (id, name, category_id, price, stock, status) VALUES (?, ?, ?, ?, ?, ?)",
             (data["id"], data["name"], data["category_id"], data["price"], data["stock"], data["status"]),
         )
-
+        connection.commit()
         socketio.emit("product_update", {"action": "add", "item": data})
-
         if ack:
             ack({"success": True, "data": data})
     except Exception as e:
         logging.error(f"Error adding product: {str(e)}")
-        
         if ack:
             ack({"success": False, "error": str(e)})
 
-# update_product WebSocket events 
+# Method to update product
 @socketio.on("update_product")
 def update_product(data):
     try:
-        # Log the update action
         logging.info(f"Updating product with ID {data['id']} on field {data['field']} with value {data['value']}")
-
-        # Ensure the provided field is valid to prevent SQL injection
         allowed_fields = ["name", "category_id", "price", "stock", "status"]
         if data["field"] not in allowed_fields:
             raise ValueError(f"Invalid field: {data['field']}")
 
-        # Execute the update query
         connection.execute(
             f"UPDATE products SET {data['field']} = ? WHERE id = ?", (data["value"], data["id"])
         )
 
-        # Emit the update action to the frontend
         socketio.emit("product_update", {
             "action": "update",
             "id": data["id"],
@@ -111,12 +97,25 @@ def update_product(data):
             "value": data["value"]
         })
     except Exception as e:
-        # Log the error and emit it to the frontend
         logging.error(f"Error updating product: {str(e)}")
         socketio.emit("error", {"message": f"Error updating product: {str(e)}"})
 
+# Method to delete product
+@socketio.on("delete_product")
+def delete_product(data, ack=None):
+    try:
+        logging.info(f"Deleting product with ID {data['id']}")
+        connection.execute("DELETE FROM products WHERE id = ?", (data["id"],))
+        socketio.emit("product_update", {"action": "delete", "id": data["id"]})
+        if ack:
+            ack({"success": True})
+    except Exception as e:
+        logging.error(f"Error deleting product: {str(e)}")
+        socketio.emit("product_update", {"action": "error", "error": str(e)})
+        if ack:
+            ack({"success": False, "error": str(e)})
 
-# Show low-stock WebSocket events 
+# Method to show low-stock
 @app.route("/low-stock", methods=["GET"])
 def low_stock_products():
     try:
@@ -137,7 +136,7 @@ def low_stock_products():
         logging.error(f"Error fetching low stock products: {str(e)}")
         return jsonify({"success": False, "error": str(e)}), 500
 
-# category-stock-insights WebSocket events 
+# Method to show category-stock-inshights
 @app.route("/category-stock-insights", methods=["GET"])
 def get_category_stock_insights():
     try:
@@ -169,18 +168,6 @@ def get_category_stock_insights():
     except Exception as e:
         logging.error(f"Error fetching category stock insights: {str(e)}")
         return jsonify({"success": False, "error": str(e)}), 500
-    
-# delete_product WebSocket events 
-@socketio.on("delete_product")
-def delete_product(data):
-    try:
-        logging.info(f"Deleting product with ID {data['id']}")
-        connection.execute("DELETE FROM products WHERE id = ?", (data["id"],))
-        # Emit updated product list to frontend
-        get_products()
-    except Exception as e:
-        logging.error(f"Error deleting product: {str(e)}")
-        socketio.emit("error", {"message": "Error deleting product"})
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

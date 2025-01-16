@@ -1,14 +1,12 @@
 <script>
   import { onMount } from "svelte";
-
-  // Import methods from services
   import { updateProduct } from "../services/inventory";
   import { fetchCategories } from "../services/categories";
 
-  export let showUpdateModal; // Modal visibility state
-  export let product; // Product data passed as a prop
+  export let showUpdateModal;
+  export let product;
 
-  let updatedProduct = { ...product }; // A local copy to modify
+  let updatedProduct = { ...product };
   let categories = [];
   let isLoadingCategories = true;
   let fetchError = "";
@@ -16,23 +14,8 @@
   // Fetch categories via the service
   const loadCategories = async () => {
     try {
-      const data = await fetchCategories(); // Fetch categories from the service
-      if (data.success) {
-        categories = data.data;
-
-        // Convert category name to category_id if needed
-        if (updatedProduct.category && !updatedProduct.category_id) {
-          const matchedCategory = categories.find(
-            (cat) => cat.category_name === updatedProduct.category
-          );
-          if (matchedCategory) {
-            updatedProduct.category_id = matchedCategory.id;
-          }
-        }
-      } else {
-        fetchError = "Failed to fetch categories.";
-        console.error("Error fetching categories:", data.error);
-      }
+      const data = await fetchCategories();
+      categories = data;
     } catch (error) {
       fetchError = "Failed to fetch categories. Please try again.";
       console.error("Error fetching categories:", error);
@@ -41,11 +24,9 @@
     }
   };
 
-  // Update product fields via the service
   const saveChanges = async () => {
     try {
-      // Emit updates only for changed fields
-      const updateFields = [
+      const fieldsToUpdate = [
         { field: "name", value: updatedProduct.name },
         { field: "category_id", value: updatedProduct.category_id },
         { field: "price", value: updatedProduct.price },
@@ -53,12 +34,11 @@
         { field: "status", value: updatedProduct.status },
       ];
 
-      for (const { field, value } of updateFields) {
+      for (const { field, value } of fieldsToUpdate) {
         if (value !== product[field]) {
           await updateProduct({ id: product.id, field, value });
         }
       }
-
       alert("Product updated successfully!");
     } catch (error) {
       console.error("Error updating product:", error);
@@ -68,7 +48,6 @@
     }
   };
 
-  // Fetch categories on mount
   onMount(() => {
     loadCategories();
   });
@@ -86,7 +65,6 @@
         <p class="text-red-500">{fetchError}</p>
       {:else}
         <div class="space-y-4">
-          <!-- Name -->
           <div>
             <label for="name" class="block text-sm font-medium">Name</label>
             <input
@@ -95,8 +73,6 @@
               bind:value={updatedProduct.name}
             />
           </div>
-
-          <!-- Category -->
           <div>
             <label for="category" class="block text-sm font-medium"
               >Category</label
@@ -112,8 +88,6 @@
               {/each}
             </select>
           </div>
-
-          <!-- Price -->
           <div>
             <label for="price" class="block text-sm font-medium">Price</label>
             <input
@@ -123,8 +97,6 @@
               bind:value={updatedProduct.price}
             />
           </div>
-
-          <!-- Stock -->
           <div>
             <label for="stock" class="block text-sm font-medium">Stock</label>
             <input
@@ -134,8 +106,6 @@
               bind:value={updatedProduct.stock}
             />
           </div>
-
-          <!-- Status -->
           <div>
             <label for="status" class="block text-sm font-medium">Status</label>
             <select
@@ -149,8 +119,6 @@
           </div>
         </div>
       {/if}
-
-      <!-- Buttons -->
       <div class="flex justify-end mt-4">
         <button
           class="bg-blue-500 text-white px-4 py-2 rounded mr-2"

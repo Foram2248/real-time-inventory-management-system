@@ -1,24 +1,20 @@
 import { getSocket } from "./websocket";
-import { products } from "../stores/products"; // Import the products store
+import { products } from "../stores/products";
 
-// Fetch products and update the store
+// Service to fetch products and update the store
 export const fetchProducts = async () => {
   try {
     const socket = getSocket();
-    return new Promise((resolve, reject) => {
-      socket.emit("get_products");
-      socket.on("products_data", (data) => {
-        if (data) {
-          products.set(data); // Update the store
-          resolve(data);
-        } else {
-          reject(new Error("Failed to fetch products"));
-        }
-      });
+    socket.emit("get_products");
+    socket.on("products_data", (data) => {
+      if (data) {
+        products.set(data);
+      } else {
+        console.error("Failed to fetch products: Data is undefined");
+      }
     });
   } catch (error) {
     console.error("Error fetching products:", error);
-    throw error;
   }
 };
 
@@ -27,39 +23,43 @@ export const subscribeToProductUpdates = async () => {
   try {
     const socket = getSocket();
     socket.on("product_update", (update) => {
-      products.update((current) => {
-        if (update.action === "add") {
-          return [...current, update.item];
-        } else if (update.action === "update") {
-          return current.map((product) =>
-            product.id === update.id
-              ? { ...product, [update.field]: update.value }
-              : product
-          );
-        } else if (update.action === "delete") {
-          return current.filter((product) => product.id !== update.id);
-        }
-        return current;
-      });
+      try {
+        console.log("before update store ...", products);
+        products.update((current) => {
+          if (update.action === "add") {
+            console.log("before update store ...", update);
+            return [...current, update.item];
+          } else if (update.action === "update") {
+            return current.map((product) =>
+              product.id === update.id
+                ? { ...product, [update.field]: update.value }
+                : product
+            );
+          } else if (update.action === "delete") {
+            return current.filter((product) => product.id !== update.id);
+          }
+          return current;
+        });
+      } catch (innerError) {
+        console.error("Error processing product update:", innerError);
+      }
     });
   } catch (error) {
     console.error("Error subscribing to product updates:", error);
-    throw error;
   }
 };
 
-// Add a product
+// Service to add a product
 export const addProduct = async (product) => {
+  console.log("Service..", product);
   try {
     const socket = getSocket();
-    return new Promise((resolve, reject) => {
-      socket.emit("add_product", product, (response) => {
-        if (response.success) {
-          resolve(response);
-        } else {
-          reject(new Error(response.error || "Failed to add product"));
-        }
-      });
+    socket.emit("add_product", product, (response) => {
+      if (!response || !response.success) {
+        throw new Error(
+          response?.error || "Unknown error while adding product"
+        );
+      }
     });
   } catch (error) {
     console.error("Error adding product:", error);
@@ -67,37 +67,34 @@ export const addProduct = async (product) => {
   }
 };
 
-// Update a product
+// Service to update a product
 export const updateProduct = async (data) => {
   try {
     const socket = getSocket();
-    return new Promise((resolve, reject) => {
-      socket.emit("update_product", data, (response) => {
-        if (response.success) {
-          resolve(response);
-        } else {
-          reject(new Error(response.error || "Failed to update product"));
-        }
-      });
+    socket.emit("update_product", data, (response) => {
+      if (!response.success) {
+        console.error("Error updating product:", response.error);
+      }
     });
   } catch (error) {
     console.error("Error updating product:", error);
-    throw error;
   }
 };
 
-// Delete a product
+// Service to delete a product
 export const deleteProduct = async (productId) => {
   try {
     const socket = getSocket();
-    return new Promise((resolve, reject) => {
-      socket.emit("delete_product", { id: productId }, (response) => {
-        if (response.success) {
-          resolve(response);
-        } else {
-          reject(new Error(response.error || "Failed to delete product"));
-        }
-      });
+    socket.emit("delete_product", { id: productId });
+    socket.on("delete_product_response", (response) => {
+      if (response.success) {
+        products.update((current) =>
+          current.filter((product) => product.id !== response.id)
+        );
+      } else {
+        console.error("Error deleting product:", response.error);
+        throw new Error(response.error || "Unknown error");
+      }
     });
   } catch (error) {
     console.error("Error deleting product:", error);

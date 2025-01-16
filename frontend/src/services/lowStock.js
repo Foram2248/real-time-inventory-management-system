@@ -1,6 +1,6 @@
 import api from "../apis/api";
 
-// Fetch low-stock products
+// Service to fetch low-stock products
 export const fetchLowStockProducts = async () => {
   try {
     const response = await api.get("/low-stock");

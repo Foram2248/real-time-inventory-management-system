@@ -1,17 +1,11 @@
 <script>
-  import { Router, Route, Link, navigate } from "svelte-routing";
-  import { onMount } from "svelte";
+  import { Router, Route, Link } from "svelte-routing";
   import { initializeWebsocket } from "./services/websocket";
 
-  // Initialize WebSocket on app load
-  onMount(() => {
-    initializeWebsocket();
-    navigate("/inventory"); // Set the default route
-  });
+  initializeWebsocket();
 </script>
 
 <main class="min-h-screen bg-gray-100">
-  <!-- Header -->
   <header
     class="bg-blue-500 text-white py-6 px-8 flex justify-between items-center"
   >
@@ -20,7 +14,6 @@
     </h1>
   </header>
 
-  <!-- Navigation -->
   <Router>
     <nav class="bg-gray-200 py-4 px-8 flex space-x-4">
       <Link
@@ -43,8 +36,13 @@
       </Link>
     </nav>
 
-    <!-- Routes -->
     <section class="p-6">
+      <Route path="/">
+        <div class="text-center text-gray-600">
+          <h2 class="text-3xl font-bold">Welcome to the Inventory App</h2>
+          <p class="mt-2">Select a tab above to view details.</p>
+        </div>
+      </Route>
       <Route
         path="/inventory"
         component={() => import("./pages/ProductTable.svelte")}

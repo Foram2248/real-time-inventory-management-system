@@ -1,6 +1,6 @@
 import api from "../apis/api";
 
-// Fetch category stock insights
+// Service to fetch category stock insights
 export const fetchCategoryStockInsights = async () => {
   try {
     const response = await api.get("/category-stock-insights");

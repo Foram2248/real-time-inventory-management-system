@@ -1,14 +1,10 @@
 <script>
-  console.log("addprpduct called...");
   import { onMount } from "svelte";
-
-  // Import services
   import { fetchCategories } from "../services/categories";
   import { addProduct } from "../services/inventory";
 
-  // Props
   export let showAddModal;
-  // Local state
+
   let newProduct = {
     id: "",
     name: "",
@@ -25,18 +21,16 @@
   // Load categories
   const loadCategories = async () => {
     try {
-      const data = await fetchCategories(); // Fetch categories from service
-      console.log("categories ....", data);
-      categories = data;
+      categories = await fetchCategories();
     } catch (error) {
       fetchError = "Failed to fetch categories. Please try again.";
       console.error("Error fetching categories:", error);
+      categories = [];
     } finally {
       isLoadingCategories = false;
     }
   };
 
-  // Save product
   const saveProduct = async () => {
     if (!newProduct.name || !newProduct.category_id) {
       alert("Name and Category are required!");
@@ -44,10 +38,11 @@
     }
 
     try {
-      await addProduct(newProduct); // Call the service to add the product
+      const productToAdd = { ...newProduct, id: null };
+      console.log("productToAdd...", productToAdd);
+      await addProduct(productToAdd);
       alert("Product added successfully!");
 
-      // Reset the form
       newProduct = {
         id: "",
         name: "",
@@ -65,12 +60,11 @@
   };
 
   const closeModal = () => {
+    console.log("Closing modal...");
     showAddModal = false;
   };
 
-  // Load categories on mount
   onMount(() => {
-    console.log("component called .......");
     loadCategories();
   });
 </script>
@@ -82,7 +76,6 @@
     <div class="bg-white rounded-lg p-6 shadow-lg w-1/3">
       <h2 class="text-xl font-bold mb-4">Add Product</h2>
 
-      <!-- Show error or loading message -->
       {#if isLoadingCategories}
         <p>Loading categories...</p>
       {:else if fetchError}
@@ -146,8 +139,6 @@
           </div>
         </div>
       {/if}
-
-      <!-- Buttons -->
       <div class="flex justify-end mt-4">
         <button
           class="bg-green-500 text-white px-4 py-2 rounded mr-2"

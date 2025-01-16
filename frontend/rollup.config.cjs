@@ -38,8 +38,8 @@ module.exports = {
   output: {
     sourcemap: true,
     name: "app",
-    format: "esm", // Change "iife" to "esm"
-    dir: "public/build", // Use "dir" for multiple chunks instead of "file"
+    format: "esm",
+    dir: "public/build",
   },
   plugins: [
     svelte({
@@ -59,8 +59,6 @@ module.exports = {
       exportConditions: ["svelte"],
     }),
     commonjs(),
-
-    // NEW: Replace plugin
     replace({
       preventAssignment: true,
       "process.env.WEBSOCKET_URL": JSON.stringify(

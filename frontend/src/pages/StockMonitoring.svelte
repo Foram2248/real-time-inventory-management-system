@@ -8,16 +8,13 @@
     TableHeadCell,
   } from "flowbite-svelte";
   import { onMount } from "svelte";
-
-  // Import the fetchLowStockProducts method from services
   import { fetchLowStockProducts } from "../services/lowStock";
 
   let lowStockProducts = [];
 
-  // Fetch low stock products on component mount
+  // Getting low stock-products
   onMount(async () => {
     try {
-      // Call the service method to fetch low stock products
       const data = await fetchLowStockProducts();
 
       if (data.success) {
