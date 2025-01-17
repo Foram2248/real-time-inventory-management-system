@@ -17,16 +17,22 @@
     subscribeToProductUpdates,
   } from "../services/inventory";
   import { products } from "../stores/products";
+  import { fetchCategories } from "../services/categories";
 
   let showAddModal = false;
   let showUpdateModal = false;
   let showDeleteModal = false;
   let selectedProduct = null;
+  let categories = [];
 
+  products.subscribe((updatedProducts) => {
+    console.log("Products store updated product table...:", updatedProducts);
+  });
   onMount(async () => {
     try {
       await fetchProducts();
       await subscribeToProductUpdates();
+      categories = await fetchCategories();
     } catch (error) {
       console.error("Error during initialization in ProductTable:", error);
     }
@@ -38,7 +44,22 @@
   };
 
   const openUpdateModal = (product) => {
-    selectedProduct = product;
+    console.log("Opening update modal with product:", product);
+    console.log("Available categories:", categories);
+    const category = categories.find(
+      (cat) =>
+        cat.category_name.trim().toLowerCase() ===
+        product.category.trim().toLowerCase()
+    );
+    if (!category) {
+      console.warn(
+        `No matching category found for product category: "${product.category}"`
+      );
+    }
+    selectedProduct = {
+      ...product,
+      category_id: category ? category.id : null,
+    };
     showUpdateModal = true;
   };
 
@@ -99,7 +120,6 @@
     </TableBody>
   </Table>
 
-  <!-- Modals -->
   {#if showAddModal}
     <AddProductModal bind:showAddModal />
   {/if}

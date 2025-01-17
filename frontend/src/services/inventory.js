@@ -5,7 +5,7 @@ import { products } from "../stores/products";
 export const fetchProducts = async () => {
   try {
     const socket = getSocket();
-    socket.emit("get_products");
+    socket.off("products_data");
     socket.on("products_data", (data) => {
       if (data) {
         products.set(data);
@@ -13,6 +13,7 @@ export const fetchProducts = async () => {
         console.error("Failed to fetch products: Data is undefined");
       }
     });
+    socket.emit("get_products");
   } catch (error) {
     console.error("Error fetching products:", error);
   }
@@ -22,12 +23,11 @@ export const fetchProducts = async () => {
 export const subscribeToProductUpdates = async () => {
   try {
     const socket = getSocket();
+    socket.off("product_update");
     socket.on("product_update", (update) => {
       try {
-        console.log("before update store ...", products);
         products.update((current) => {
           if (update.action === "add") {
-            console.log("before update store ...", update);
             return [...current, update.item];
           } else if (update.action === "update") {
             return current.map((product) =>
@@ -51,7 +51,6 @@ export const subscribeToProductUpdates = async () => {
 
 // Service to add a product
 export const addProduct = async (product) => {
-  console.log("Service..", product);
   try {
     const socket = getSocket();
     socket.emit("add_product", product, (response) => {

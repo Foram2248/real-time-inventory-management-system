@@ -69,9 +69,31 @@ def add_product(data, ack=None):
             (data["id"], data["name"], data["category_id"], data["price"], data["stock"], data["status"]),
         )
         connection.commit()
-        socketio.emit("product_update", {"action": "add", "item": data})
+        
+        query = """
+        SELECT 
+            p.id, 
+            p.name, 
+            c.category_name, 
+            p.price, 
+            p.stock, 
+            p.status 
+        FROM products p 
+        JOIN categories c ON p.category_id = c.id
+        WHERE p.id = ?;
+        """
+        result = connection.execute(query, (data["id"],)).fetchone()
+        item = {
+            "id": result[0],
+            "name": result[1],
+            "category": result[2],
+            "price": result[3],
+            "stock": result[4],
+            "status": result[5],
+        }
+        socketio.emit("product_update", {"action": "add", "item": item})
         if ack:
-            ack({"success": True, "data": data})
+            ack({"success": True, "data": item})
     except Exception as e:
         logging.error(f"Error adding product: {str(e)}")
         if ack:

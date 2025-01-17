@@ -1,8 +1,16 @@
 <script>
-  import { Router, Route, Link } from "svelte-routing";
+  import { Router, Route, Link, navigate } from "svelte-routing";
   import { initializeWebsocket } from "./services/websocket";
+  import { onMount } from "svelte";
 
-  initializeWebsocket();
+  onMount(() => {
+    initializeWebsocket();
+
+    // Redirect to /inventory on initial load if the path is /
+    if (window.location.pathname === "/") {
+      navigate("/inventory");
+    }
+  });
 </script>
 
 <main class="min-h-screen bg-gray-100">
@@ -37,12 +45,6 @@
     </nav>
 
     <section class="p-6">
-      <Route path="/">
-        <div class="text-center text-gray-600">
-          <h2 class="text-3xl font-bold">Welcome to the Inventory App</h2>
-          <p class="mt-2">Select a tab above to view details.</p>
-        </div>
-      </Route>
       <Route
         path="/inventory"
         component={() => import("./pages/ProductTable.svelte")}
