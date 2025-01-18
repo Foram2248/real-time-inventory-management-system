@@ -1,28 +1,15 @@
 <script>
-  import { onMount } from "svelte";
   import { updateProduct } from "../services/inventory";
-  import { fetchCategories } from "../services/categories";
+  import { categories } from "../stores/categories";
 
   export let showUpdateModal;
   export let product;
 
   let updatedProduct = { ...product };
-  let categories = [];
-  let isLoadingCategories = true;
+  let isLoadingCategories = false;
   let fetchError = "";
 
-  // Fetch categories via the service
-  const loadCategories = async () => {
-    try {
-      const data = await fetchCategories();
-      categories = data;
-    } catch (error) {
-      fetchError = "Failed to fetch categories. Please try again.";
-      console.error("Error fetching categories:", error);
-    } finally {
-      isLoadingCategories = false;
-    }
-  };
+  $: availableCategories = $categories;
 
   const saveChanges = async () => {
     try {
@@ -47,10 +34,6 @@
       showUpdateModal = false;
     }
   };
-
-  onMount(() => {
-    loadCategories();
-  });
 </script>
 
 {#if showUpdateModal}
@@ -83,7 +66,7 @@
               bind:value={updatedProduct.category_id}
             >
               <option value="" disabled>Select a category</option>
-              {#each categories as category}
+              {#each availableCategories as category}
                 <option value={category.id}>{category.category_name}</option>
               {/each}
             </select>

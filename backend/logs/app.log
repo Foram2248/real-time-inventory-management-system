@@ -3965,3 +3965,643 @@ INFO:root:Fetching all categories
 INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:16:33] "GET /categories HTTP/1.1" 200 -
 INFO:root:Updating product with ID 21 on field category_id with value 2
 ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:58] "GET /socket.io/?EIO=4&transport=polling&t=87o0eyjt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:58] "POST /socket.io/?EIO=4&transport=polling&t=87o0uizc&sid=45WkA7YIoofpLZ9pAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:58] "GET /socket.io/?EIO=4&transport=polling&t=87o0vewf&sid=45WkA7YIoofpLZ9pAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:58] "GET /socket.io/?EIO=4&transport=polling&t=87o1nwpn&sid=45WkA7YIoofpLZ9pAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:54:58] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:55:01] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:55:02] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 22:55:03] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "GET /socket.io/?EIO=4&transport=polling&t=8gc680dd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "POST /socket.io/?EIO=4&transport=polling&t=8gc72r6e&sid=wYUKF0ii2eo5BsSlAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "GET /socket.io/?EIO=4&transport=polling&t=8gc72lug&sid=wYUKF0ii2eo5BsSlAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "GET /socket.io/?EIO=4&transport=polling&t=8gca8c79&sid=wYUKF0ii2eo5BsSlAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "POST /socket.io/?EIO=4&transport=polling&t=8gcaf9ff&sid=wYUKF0ii2eo5BsSlAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "GET /socket.io/?EIO=4&transport=polling&t=8gcaif24&sid=wYUKF0ii2eo5BsSlAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:01:43] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:53] "GET /socket.io/?EIO=4&transport=polling&t=8lp31a2z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:53] "POST /socket.io/?EIO=4&transport=polling&t=8lp3744e&sid=CW7plMntKI-vkLKAAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:53] "GET /socket.io/?EIO=4&transport=polling&t=8lp38gen&sid=CW7plMntKI-vkLKAAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:53] "GET /socket.io/?EIO=4&transport=polling&t=8lp3xh6h&sid=CW7plMntKI-vkLKAAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:53] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:05:55] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:08:31] "GET /low-stock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2025 23:08:31] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "GET /socket.io/?EIO=4&transport=polling&t=avb4laeo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "POST /socket.io/?EIO=4&transport=polling&t=avb4vl74&sid=PLlfm9-bgCNX2qE0AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "GET /socket.io/?EIO=4&transport=polling&t=avb4w62g&sid=PLlfm9-bgCNX2qE0AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "GET /socket.io/?EIO=4&transport=polling&t=avb5yzfw&sid=PLlfm9-bgCNX2qE0AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "GET /socket.io/?EIO=4&transport=polling&t=avb8jre7&sid=PLlfm9-bgCNX2qE0AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:07] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:17] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value test
+INFO:root:Updating product with ID 21 on field price with value 61
+INFO:root:Updating product with ID 21 on field stock with value 37
+INFO:root:Updating product with ID 21 on field status with value Inactive
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 16:57:38] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field category_id with value 2
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:13] "GET /socket.io/?EIO=4&transport=websocket&sid=PLlfm9-bgCNX2qE0AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:19] "GET /socket.io/?EIO=4&transport=polling&t=b20bg1y2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:19] "POST /socket.io/?EIO=4&transport=polling&t=b20cejel&sid=yV_wuN5nyx0obR00AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:19] "GET /socket.io/?EIO=4&transport=polling&t=b20cfqei&sid=yV_wuN5nyx0obR00AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:19] "GET /socket.io/?EIO=4&transport=polling&t=b20g7oph&sid=yV_wuN5nyx0obR00AAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:20] "POST /socket.io/?EIO=4&transport=polling&t=b20gi9rc&sid=yV_wuN5nyx0obR00AAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:02:20] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:05:45] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:06:55] "GET /socket.io/?EIO=4&transport=websocket&sid=yV_wuN5nyx0obR00AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:06:59] "GET /socket.io/?EIO=4&transport=polling&t=b80hhxg1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:06:59] "POST /socket.io/?EIO=4&transport=polling&t=b80hyxz0&sid=MTR6psg__hexJ5gTAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:06:59] "GET /socket.io/?EIO=4&transport=polling&t=b80hz1e9&sid=MTR6psg__hexJ5gTAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:00] "GET /socket.io/?EIO=4&transport=polling&t=b80lmvhb&sid=MTR6psg__hexJ5gTAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:00] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:02] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:03] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "GET /socket.io/?EIO=4&transport=websocket&sid=MTR6psg__hexJ5gTAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "GET /socket.io/?EIO=4&transport=polling&t=b88nh65g HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "POST /socket.io/?EIO=4&transport=polling&t=b88nz8wi&sid=uFJnSG0S4-_5Lj25AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "GET /socket.io/?EIO=4&transport=polling&t=b88o0q9k&sid=uFJnSG0S4-_5Lj25AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "GET /socket.io/?EIO=4&transport=polling&t=b88r5vm9&sid=uFJnSG0S4-_5Lj25AAAG HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:10] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:15] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:16] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:07:20] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:56] "GET /socket.io/?EIO=4&transport=polling&t=br88h9bi HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:56] "POST /socket.io/?EIO=4&transport=polling&t=br88q5si&sid=kjX5NkXL9z4HbGbiAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:56] "GET /socket.io/?EIO=4&transport=polling&t=br88qxxg&sid=kjX5NkXL9z4HbGbiAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:56] "GET /socket.io/?EIO=4&transport=polling&t=br89lmzt&sid=kjX5NkXL9z4HbGbiAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:21:56] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:22:03] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 1 on field category_id with value 2
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 1" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "GET /socket.io/?EIO=4&transport=polling&t=bu4hs92d HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "POST /socket.io/?EIO=4&transport=polling&t=bu4i8fvj&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "GET /socket.io/?EIO=4&transport=polling&t=bu4i8vp2&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "GET /socket.io/?EIO=4&transport=polling&t=bu4j0gn9&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "POST /socket.io/?EIO=4&transport=polling&t=bu4lqp3v&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "GET /socket.io/?EIO=4&transport=polling&t=bu4lrb8z&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:11] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:14] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:15] "GET /categories HTTP/1.1" 200 -
+INFO:root:Deleting product with ID 21
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:27] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 20 on field name with value Lipstick
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:24:41] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:25:02] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field category_id with value 1
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:29:35] "GET /socket.io/?EIO=4&transport=websocket&sid=eNbB_zfq1D6LGqrIAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:30:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "GET /socket.io/?EIO=4&transport=polling&t=c2wmnaf7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "POST /socket.io/?EIO=4&transport=polling&t=c2wndcjs&sid=k1LVCb3-RMC7glDFAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "GET /socket.io/?EIO=4&transport=polling&t=c2wnehd2&sid=k1LVCb3-RMC7glDFAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "GET /socket.io/?EIO=4&transport=polling&t=c2wnut23&sid=k1LVCb3-RMC7glDFAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "POST /socket.io/?EIO=4&transport=polling&t=c2wqy0xw&sid=k1LVCb3-RMC7glDFAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:01] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:02] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:03] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:03] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:31:11] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value test12
+INFO:root:Updating product with ID 21 on field category_id with value 4
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:33:47] "GET /socket.io/?EIO=4&transport=websocket&sid=k1LVCb3-RMC7glDFAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:33] "GET /socket.io/?EIO=4&transport=polling&t=c7ghi3b0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:33] "POST /socket.io/?EIO=4&transport=polling&t=c7gmby8k&sid=zxkcyg-atFmrI3KoAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:33] "GET /socket.io/?EIO=4&transport=polling&t=c7gmcpeg&sid=zxkcyg-atFmrI3KoAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:34] "GET /socket.io/?EIO=4&transport=polling&t=c7gpy27s&sid=zxkcyg-atFmrI3KoAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:34] "GET /socket.io/?EIO=4&transport=polling&t=c7gs6j8d&sid=zxkcyg-atFmrI3KoAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:34] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:34:37] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value test
+INFO:root:Updating product with ID 21 on field category_id with value 1
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:20] "GET /socket.io/?EIO=4&transport=websocket&sid=zxkcyg-atFmrI3KoAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:31] "GET /socket.io/?EIO=4&transport=polling&t=c9zcz8oh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:31] "POST /socket.io/?EIO=4&transport=polling&t=c9zdgas9&sid=mJxQaZmUCY4ETz31AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:31] "GET /socket.io/?EIO=4&transport=polling&t=c9zdhpiz&sid=mJxQaZmUCY4ETz31AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:31] "GET /socket.io/?EIO=4&transport=polling&t=c9zh5kc2&sid=mJxQaZmUCY4ETz31AAAG HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:31] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:36:34] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value test12
+INFO:root:Updating product with ID 21 on field category_id with value 4
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:40:06] "GET /socket.io/?EIO=4&transport=websocket&sid=mJxQaZmUCY4ETz31AAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:02] "GET /socket.io/?EIO=4&transport=polling&t=cfsf1t08 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:02] "POST /socket.io/?EIO=4&transport=polling&t=cfsfrdai&sid=SQKlRfiYlNFZKhFcAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:02] "GET /socket.io/?EIO=4&transport=polling&t=cfsfsp3e&sid=SQKlRfiYlNFZKhFcAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:02] "GET /socket.io/?EIO=4&transport=polling&t=cfsg8ka8&sid=SQKlRfiYlNFZKhFcAAAI HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:02] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:04] "GET / HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:12] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:18] "GET /low-stock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:21] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:25] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:28] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:30] "GET /socket.io/?EIO=4&transport=websocket&sid=SQKlRfiYlNFZKhFcAAAI HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:41:33] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:29] "GET /socket.io/?EIO=4&transport=polling&t=chnyp8df HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:29] "POST /socket.io/?EIO=4&transport=polling&t=chnzpt7d&sid=w6cUL0QlFk07wFUwAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:29] "GET /socket.io/?EIO=4&transport=polling&t=chnzqs8e&sid=w6cUL0QlFk07wFUwAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:29] "GET /socket.io/?EIO=4&transport=polling&t=cho0au6j&sid=w6cUL0QlFk07wFUwAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:30] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:53] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:54] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:42:58] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value test1
+INFO:root:Updating product with ID 21 on field category_id with value 1
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:21] "GET /socket.io/?EIO=4&transport=websocket&sid=w6cUL0QlFk07wFUwAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "GET /socket.io/?EIO=4&transport=polling&t=cn7gwcnw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "POST /socket.io/?EIO=4&transport=polling&t=cn7hfwoj&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "GET /socket.io/?EIO=4&transport=polling&t=cn7hf9jx&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "GET /socket.io/?EIO=4&transport=polling&t=cn7l8i8l&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "GET /socket.io/?EIO=4&transport=polling&t=cn7lrik2&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "POST /socket.io/?EIO=4&transport=polling&t=cn7lm9il&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:48] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:46:52] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:47:21] "GET /socket.io/?EIO=4&transport=websocket&sid=QmtFO-vGxG6aAE7LAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:07] "GET /socket.io/?EIO=4&transport=polling&t=cq6le95z HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:07] "POST /socket.io/?EIO=4&transport=polling&t=cq6lq5na&sid=AQF-Yqwvekqo7IcYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:07] "GET /socket.io/?EIO=4&transport=polling&t=cq6lri2x&sid=AQF-Yqwvekqo7IcYAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:07] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:11] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:19] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 17:49:49] "GET /socket.io/?EIO=4&transport=websocket&sid=AQF-Yqwvekqo7IcYAAAE HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:19:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "GET /socket.io/?EIO=4&transport=polling&t=dtwqx6s6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "POST /socket.io/?EIO=4&transport=polling&t=dtwriep6&sid=WEUskAEuEkQVhXWRAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "GET /socket.io/?EIO=4&transport=polling&t=dtwriz10&sid=WEUskAEuEkQVhXWRAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "GET /socket.io/?EIO=4&transport=polling&t=dtwsdoad&sid=WEUskAEuEkQVhXWRAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "POST /socket.io/?EIO=4&transport=polling&t=dtwv22gh&sid=WEUskAEuEkQVhXWRAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:00] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:07] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:08] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:12] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:16] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:26] "GET /categories HTTP/1.1" 200 -
+INFO:root:Deleting product with ID 21
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:20:40] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 18:26:06] "GET /socket.io/?EIO=4&transport=websocket&sid=WEUskAEuEkQVhXWRAAAA HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:10] "GET /socket.io/?EIO=4&transport=polling&t=g1uid28q HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:10] "POST /socket.io/?EIO=4&transport=polling&t=g1uipihy&sid=bWiaG9FpH8MI6GezAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:10] "GET /socket.io/?EIO=4&transport=polling&t=g1uipqmm&sid=bWiaG9FpH8MI6GezAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:10] "GET /socket.io/?EIO=4&transport=polling&t=g1ujm53j&sid=bWiaG9FpH8MI6GezAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:10] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "GET /socket.io/?EIO=4&transport=websocket&sid=bWiaG9FpH8MI6GezAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "GET /socket.io/?EIO=4&transport=polling&t=g23vdf8b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "POST /socket.io/?EIO=4&transport=polling&t=g23yu28v&sid=tp9Xmvl4gQo7v0LPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "GET /socket.io/?EIO=4&transport=polling&t=g23yvbmh&sid=tp9Xmvl4gQo7v0LPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "GET /socket.io/?EIO=4&transport=polling&t=g23z6qhw&sid=tp9Xmvl4gQo7v0LPAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:22] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:23] "GET /low-stock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:22:24] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Deleting product with ID 21
+INFO:root:Updating product with ID 21 on field name with value Test12
+INFO:root:Updating product with ID 21 on field category_id with value 4
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:root:Updating product with ID 21 on field price with value 121
+INFO:root:Updating product with ID 21 on field stock with value 121
+INFO:root:Updating product with ID 21 on field status with value Inactive
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:10] "GET /low-stock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:14] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "GET /socket.io/?EIO=4&transport=polling&t=g59ihuri HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "POST /socket.io/?EIO=4&transport=polling&t=g59j949s&sid=Fyo9L3vFYP8e6o3DAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "GET /socket.io/?EIO=4&transport=polling&t=g59j99d8&sid=Fyo9L3vFYP8e6o3DAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "GET /socket.io/?EIO=4&transport=polling&t=g59mclyt&sid=Fyo9L3vFYP8e6o3DAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "POST /socket.io/?EIO=4&transport=polling&t=g59mkec7&sid=Fyo9L3vFYP8e6o3DAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:24:49] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:25:11] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field name with value Test
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:25:23] "GET /socket.io/?EIO=4&transport=websocket&sid=Fyo9L3vFYP8e6o3DAAAE HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:09] "GET /socket.io/?EIO=4&transport=polling&t=gc41fp79 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:09] "POST /socket.io/?EIO=4&transport=polling&t=gc42lggd&sid=oj0kvhcUEPODLvb-AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:09] "GET /socket.io/?EIO=4&transport=polling&t=gc42mk4l&sid=oj0kvhcUEPODLvb-AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:09] "GET /socket.io/?EIO=4&transport=polling&t=gc459zu4&sid=oj0kvhcUEPODLvb-AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:09] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "GET /socket.io/?EIO=4&transport=polling&t=gc8wrt5t HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "POST /socket.io/?EIO=4&transport=polling&t=gc8wzb3k&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "GET /socket.io/?EIO=4&transport=polling&t=gc8wz264&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "POST /socket.io/?EIO=4&transport=polling&t=gc90qkon&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:15] "GET /socket.io/?EIO=4&transport=polling&t=gc8xo3v7&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:17] "GET /socket.io/?EIO=4&transport=websocket&sid=oj0kvhcUEPODLvb-AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:17] "GET /socket.io/?EIO=4&transport=polling&t=gc91l6rs&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:30:18] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field category_id with value 1
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:36:00] "GET /socket.io/?EIO=4&transport=websocket&sid=i8hVQ1i03qDEt5gPAAAC HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "GET /socket.io/?EIO=4&transport=polling&t=gn6lnxlu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "POST /socket.io/?EIO=4&transport=polling&t=gn6m835j&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "GET /socket.io/?EIO=4&transport=polling&t=gn6m8219&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "GET /socket.io/?EIO=4&transport=polling&t=gn6mmc4w&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "GET /socket.io/?EIO=4&transport=polling&t=gn6plsif&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "POST /socket.io/?EIO=4&transport=polling&t=gn6pski7&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:45] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:38:47] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field category_id with value 3
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:root:Updating product with ID 21 on field name with value Test12
+INFO:root:Product update emitted: ID=21, Field=name, Value=Test12
+INFO:root:Updating product with ID 21 on field category_id with value 3
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:44:59] "GET /socket.io/?EIO=4&transport=websocket&sid=6UoUXRTYNh6wCl1fAAAA HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "GET /socket.io/?EIO=4&transport=polling&t=gy1pucps HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "POST /socket.io/?EIO=4&transport=polling&t=gy1qblop&sid=1J2UDtNzo6hJQZbGAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "GET /socket.io/?EIO=4&transport=polling&t=gy1qbinz&sid=1J2UDtNzo6hJQZbGAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "GET /socket.io/?EIO=4&transport=polling&t=gy1r6zwe&sid=1J2UDtNzo6hJQZbGAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "POST /socket.io/?EIO=4&transport=polling&t=gy1txei7&sid=1J2UDtNzo6hJQZbGAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:12] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:47:13] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:06] "GET /socket.io/?EIO=4&transport=websocket&sid=1J2UDtNzo6hJQZbGAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:11] "GET /socket.io/?EIO=4&transport=polling&t=gzbbwebn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:11] "POST /socket.io/?EIO=4&transport=polling&t=gzbg4zi9&sid=Z7QW2NeTuESD8gpGAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:11] "GET /socket.io/?EIO=4&transport=polling&t=gzbg41z6&sid=Z7QW2NeTuESD8gpGAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:11] "GET /socket.io/?EIO=4&transport=polling&t=gzbgffbl&sid=Z7QW2NeTuESD8gpGAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:48:11] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field category_id with value 3
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:root:Updating product with ID 21 on field name with value Test
+INFO:root:Product update emitted: ID=21, Field=name, Value=Test
+INFO:root:Updating product with ID 21 on field category_id with value 3
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:02] "GET /socket.io/?EIO=4&transport=websocket&sid=Z7QW2NeTuESD8gpGAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:52] "GET /socket.io/?EIO=4&transport=polling&t=h6m0n4eo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:52] "POST /socket.io/?EIO=4&transport=polling&t=h6m57mv3&sid=R_wwSblooKcFjH0XAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:52] "GET /socket.io/?EIO=4&transport=polling&t=h6m58am4&sid=R_wwSblooKcFjH0XAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:52] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 19:53:52] "GET /socket.io/?EIO=4&transport=polling&t=h6m8iq3g&sid=R_wwSblooKcFjH0XAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field category_id with value 7
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:48] "GET /socket.io/?EIO=4&transport=polling&t=jok4nuco HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:48] "POST /socket.io/?EIO=4&transport=polling&t=jok55kux&sid=Ch1ys23Rps55oRkxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:48] "GET /socket.io/?EIO=4&transport=polling&t=jok569eh&sid=Ch1ys23Rps55oRkxAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:48] "GET /socket.io/?EIO=4&transport=polling&t=jok61h0f&sid=Ch1ys23Rps55oRkxAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:48] "POST /socket.io/?EIO=4&transport=polling&t=jok8rtn2&sid=Ch1ys23Rps55oRkxAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:49] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:03:50] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 21 on field name with value Test12
+INFO:root:SQL Update successful for ID=21, Field=name, Value=Test12
+INFO:root:Emitting product update to clients: {'action': 'update', 'id': 21, 'field': 'name', 'value': 'Test12'}
+INFO:root:Updating product with ID 21 on field category_id with value 3
+ERROR:root:Error updating product: Constraint Error: Duplicate key "id: 21" violates primary key constraint. If this is an unexpected constraint violation please double check with the known index limitations section in our documentation (https://duckdb.org/docs/sql/indexes).
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:13] "GET /socket.io/?EIO=4&transport=polling&t=kp3cowoq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:13] "POST /socket.io/?EIO=4&transport=polling&t=kp3d3wdl&sid=Yz1gn1Cz-T9bNQd_AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:13] "GET /socket.io/?EIO=4&transport=polling&t=kp3d3n8i&sid=Yz1gn1Cz-T9bNQd_AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:13] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:32:13] "GET /categories HTTP/1.1" 200 -
+INFO:root:Updating product with ID 21 on field name with value Test12
+INFO:root:Updating product with ID 21 on field category_id with value 4
+INFO:root:SQL Update successful for ID=21, Field=category_id, Value=4
+INFO:root:Emitting product update to clients: {'action': 'update', 'id': 21, 'field': 'category_id', 'value': 4}
+INFO:root:SQL Update successful for ID=21, Field=name, Value=Test12
+INFO:root:Emitting product update to clients: {'action': 'update', 'id': 21, 'field': 'name', 'value': 'Test12'}
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "GET /socket.io/?EIO=4&transport=polling&t=krurxtcr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "POST /socket.io/?EIO=4&transport=polling&t=krus7lt7&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "GET /socket.io/?EIO=4&transport=polling&t=krus7pyo&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "POST /socket.io/?EIO=4&transport=polling&t=kruvtekn&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "GET /socket.io/?EIO=4&transport=polling&t=krusiwbx&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:22] "GET /socket.io/?EIO=4&transport=polling&t=kruwrw1g&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:root:Deleting product with ID 21
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:30] "GET /socket.io/?EIO=4&transport=websocket&sid=sNX2wTiD-nOFUvnRAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "GET /socket.io/?EIO=4&transport=polling&t=ks5gs612 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "POST /socket.io/?EIO=4&transport=polling&t=ks5gzdoy&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "GET /socket.io/?EIO=4&transport=polling&t=ks5h02xz&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "POST /socket.io/?EIO=4&transport=polling&t=ks5kmkar&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "GET /socket.io/?EIO=4&transport=polling&t=ks5hbp49&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:36] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:37] "GET /socket.io/?EIO=4&transport=polling&t=ks5ll3to&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 21:34:45] "GET /socket.io/?EIO=4&transport=websocket&sid=bYMx942rgxE5qlLlAAAE HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:22] "GET /socket.io/?EIO=4&transport=polling&t=mpb20qpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:22] "POST /socket.io/?EIO=4&transport=polling&t=mpb62xay&sid=kd9gbsxHw1UENUJDAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:22] "GET /socket.io/?EIO=4&transport=polling&t=mpb62w3p&sid=kd9gbsxHw1UENUJDAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:22] "GET /socket.io/?EIO=4&transport=polling&t=mpb6j60l&sid=kd9gbsxHw1UENUJDAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:22] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:28:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "GET /socket.io/?EIO=4&transport=polling&t=n930o5cm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "POST /socket.io/?EIO=4&transport=polling&t=n930wbo3&sid=BawRlmlAJqdEbCZmAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "GET /socket.io/?EIO=4&transport=polling&t=n930x140&sid=BawRlmlAJqdEbCZmAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "GET /socket.io/?EIO=4&transport=polling&t=n93187j9&sid=BawRlmlAJqdEbCZmAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "GET /socket.io/?EIO=4&transport=polling&t=n931drco&sid=BawRlmlAJqdEbCZmAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:45] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:48] "GET /low-stock HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:43:49] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:44:57] "GET /socket.io/?EIO=4&transport=websocket&sid=BawRlmlAJqdEbCZmAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "GET /socket.io/?EIO=4&transport=polling&t=napzskdg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "POST /socket.io/?EIO=4&transport=polling&t=naq40vu0&sid=2Gbw3rFtjaX1ODAlAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "GET /socket.io/?EIO=4&transport=polling&t=naq40rul&sid=2Gbw3rFtjaX1ODAlAAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "GET /socket.io/?EIO=4&transport=polling&t=naq4fogb&sid=2Gbw3rFtjaX1ODAlAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "POST /socket.io/?EIO=4&transport=polling&t=naq4fuln&sid=2Gbw3rFtjaX1ODAlAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:45:01] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:49:07] "GET /socket.io/?EIO=4&transport=websocket&sid=2Gbw3rFtjaX1ODAlAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:33] "GET /socket.io/?EIO=4&transport=polling&t=nqtyc1eq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:33] "POST /socket.io/?EIO=4&transport=polling&t=nqtyms5z&sid=-bCK8ourvXBLbZf9AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:33] "GET /socket.io/?EIO=4&transport=polling&t=nqtynd6t&sid=-bCK8ourvXBLbZf9AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:33] "GET /socket.io/?EIO=4&transport=polling&t=nqtz0irv&sid=-bCK8ourvXBLbZf9AAAE HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:35] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:37] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:42] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:46] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:57:59] "GET /socket.io/?EIO=4&transport=websocket&sid=-bCK8ourvXBLbZf9AAAE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:10] "GET /socket.io/?EIO=4&transport=polling&t=nrm9icwg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:10] "POST /socket.io/?EIO=4&transport=polling&t=nrm9pjkk&sid=-i7XuGIIdgtx-eagAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:10] "GET /socket.io/?EIO=4&transport=polling&t=nrm9pwel&sid=-i7XuGIIdgtx-eagAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:10] "GET /socket.io/?EIO=4&transport=polling&t=nrmaebx8&sid=-i7XuGIIdgtx-eagAAAG HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:12] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 22:58:14] "GET /socket.io/?EIO=4&transport=websocket&sid=-i7XuGIIdgtx-eagAAAG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:00:01] "GET /socket.io/?EIO=4&transport=polling&t=nu0a229w HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:00:01] "POST /socket.io/?EIO=4&transport=polling&t=nu0acsn4&sid=CWrLJ3Vijo-u1ARuAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:00:01] "GET /socket.io/?EIO=4&transport=polling&t=nu0achna&sid=CWrLJ3Vijo-u1ARuAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:00:02] "GET /socket.io/?EIO=4&transport=polling&t=nu0b1edd&sid=CWrLJ3Vijo-u1ARuAAAI HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:00:12] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:01:20] "GET /socket.io/?EIO=4&transport=websocket&sid=CWrLJ3Vijo-u1ARuAAAI HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "GET /socket.io/?EIO=4&transport=polling&t=o3se3sgr HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "POST /socket.io/?EIO=4&transport=polling&t=o3sf145o&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "GET /socket.io/?EIO=4&transport=polling&t=o3sf1zjo&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "GET /socket.io/?EIO=4&transport=polling&t=o3sfa4an&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "POST /socket.io/?EIO=4&transport=polling&t=o3sfk1as&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:37] "GET /socket.io/?EIO=4&transport=polling&t=o3sfltme&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:41] "GET /socket.io/?EIO=4&transport=websocket&sid=Ui5ERowGcEXKUtCQAAAK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "GET /socket.io/?EIO=4&transport=polling&t=o3y1zlpo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "POST /socket.io/?EIO=4&transport=polling&t=o3y27if4&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "GET /socket.io/?EIO=4&transport=polling&t=o3y28soo&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "POST /socket.io/?EIO=4&transport=polling&t=o3y5wij8&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:45] "GET /socket.io/?EIO=4&transport=polling&t=o3y2xah9&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:07:46] "GET /socket.io/?EIO=4&transport=polling&t=o3y6p4co&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:08:55] "GET /socket.io/?EIO=4&transport=websocket&sid=WN9IYqIzvXmTFKhQAAAM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:08:56] "GET /socket.io/?EIO=4&transport=polling&t=o5hcz8rm HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:08:56] "POST /socket.io/?EIO=4&transport=polling&t=o5hdcnzq&sid=G341BlA6gu1GUGodAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:08:56] "GET /socket.io/?EIO=4&transport=polling&t=o5hdd60r&sid=G341BlA6gu1GUGodAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:15:58] "GET /socket.io/?EIO=4&transport=websocket&sid=G341BlA6gu1GUGodAAAO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "GET /socket.io/?EIO=4&transport=polling&t=oeudk8ew HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "POST /socket.io/?EIO=4&transport=polling&t=oeue3axh&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "GET /socket.io/?EIO=4&transport=polling&t=oeue3i7g&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "GET /socket.io/?EIO=4&transport=polling&t=oeuertv2&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "POST /socket.io/?EIO=4&transport=polling&t=oeuhiemy&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:13] "GET /socket.io/?EIO=4&transport=polling&t=oeuhnfet&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:15] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:16:25] "GET /socket.io/?EIO=4&transport=websocket&sid=_dqQG6eJiCqAUrKTAAAQ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:27:58] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:02] "GET /socket.io/?EIO=4&transport=polling&t=ou1mcysw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:02] "POST /socket.io/?EIO=4&transport=polling&t=ou1mrtvi&sid=QQuK3ZnO3b2dJKTHAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:02] "GET /socket.io/?EIO=4&transport=polling&t=ou1msxhi&sid=QQuK3ZnO3b2dJKTHAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:03] "GET /socket.io/?EIO=4&transport=polling&t=ou1q44yj&sid=QQuK3ZnO3b2dJKTHAAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:03] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:04] "GET /category-stock-insights HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:04] "GET /low-stock HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:28:09] "GET /socket.io/?EIO=4&transport=websocket&sid=QQuK3ZnO3b2dJKTHAAAA HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:32:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:32:11] "GET /socket.io/?EIO=4&transport=polling&t=ozd8v4am HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:32:11] "POST /socket.io/?EIO=4&transport=polling&t=ozd98bfi&sid=Jm2YU3iNrJ0k4791AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:32:11] "GET /socket.io/?EIO=4&transport=polling&t=ozd984na&sid=Jm2YU3iNrJ0k4791AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [17/Jan/2025 23:32:11] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products

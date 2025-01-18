@@ -1,7 +1,6 @@
 <script>
-  import { onMount } from "svelte";
-  import { fetchCategories } from "../services/categories";
   import { addProduct } from "../services/inventory";
+  import { categories } from "../stores/categories";
 
   export let showAddModal;
 
@@ -14,23 +13,9 @@
     status: "Active",
   };
 
-  let categories = [];
-  let isLoadingCategories = true;
-  let fetchError = "";
+  $: availableCategories = $categories;
 
-  // Load categories
-  const loadCategories = async () => {
-    try {
-      categories = await fetchCategories();
-    } catch (error) {
-      fetchError = "Failed to fetch categories. Please try again.";
-      console.error("Error fetching categories:", error);
-      categories = [];
-    } finally {
-      isLoadingCategories = false;
-    }
-  };
-
+  // method to add new product
   const saveProduct = async () => {
     if (!newProduct.name || !newProduct.category_id) {
       alert("Name and Category are required!");
@@ -39,7 +24,6 @@
 
     try {
       const productToAdd = { ...newProduct, id: null };
-      console.log("productToAdd...", productToAdd);
       await addProduct(productToAdd);
       alert("Product added successfully!");
 
@@ -60,13 +44,8 @@
   };
 
   const closeModal = () => {
-    console.log("Closing modal...");
     showAddModal = false;
   };
-
-  onMount(() => {
-    loadCategories();
-  });
 </script>
 
 {#if showAddModal}
@@ -76,10 +55,8 @@
     <div class="bg-white rounded-lg p-6 shadow-lg w-1/3">
       <h2 class="text-xl font-bold mb-4">Add Product</h2>
 
-      {#if isLoadingCategories}
+      {#if !$categories.length}
         <p>Loading categories...</p>
-      {:else if fetchError}
-        <p class="text-red-500">{fetchError}</p>
       {:else}
         <div class="space-y-4">
           <div>
@@ -101,7 +78,7 @@
               bind:value={newProduct.category_id}
             >
               <option value="" disabled>Select a category</option>
-              {#each categories as category}
+              {#each availableCategories as category}
                 <option value={category.id}>{category.category_name}</option>
               {/each}
             </select>
@@ -143,7 +120,7 @@
         <button
           class="bg-green-500 text-white px-4 py-2 rounded mr-2"
           on:click={saveProduct}
-          disabled={isLoadingCategories || !!fetchError}
+          disabled={!$categories.length}
         >
           Add
         </button>

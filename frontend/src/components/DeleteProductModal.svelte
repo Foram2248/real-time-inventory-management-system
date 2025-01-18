@@ -4,7 +4,7 @@
   export let showDeleteModal;
   export let product;
 
-  // Function to handle product deletion
+  // method to delete product
   const doDeleteProduct = async () => {
     try {
       await deleteProduct(product.id);

@@ -8,7 +8,7 @@ CREATE TABLE categories (
 CREATE TABLE products (
     id INTEGER PRIMARY KEY,
     name VARCHAR NOT NULL,
-    category_id INTEGER REFERENCES categories(id),
+    category_id INTEGER,
     price FLOAT NOT NULL,
     stock INTEGER NOT NULL,
     status VARCHAR NOT NULL

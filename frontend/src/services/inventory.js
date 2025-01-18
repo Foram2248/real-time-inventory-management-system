@@ -1,7 +1,8 @@
 import { getSocket } from "./websocket";
 import { products } from "../stores/products";
+import { categories } from "../stores/categories";
 
-// Service to fetch products and update the store
+// Service to fetch products and update the products store
 export const fetchProducts = async () => {
   try {
     const socket = getSocket();
@@ -19,6 +20,25 @@ export const fetchProducts = async () => {
   }
 };
 
+// Service to fetch categories and update the categories store
+export const fetchCategoriesAndUpdateStore = async () => {
+  try {
+    const socket = getSocket();
+    socket.off("categories_data");
+    socket.on("categories_data", (data) => {
+      if (data) {
+        categories.set(data);
+        categories.subscribe((currentCategories) => {});
+      } else {
+        console.error("Failed to fetch categories: Data is undefined");
+      }
+    });
+    socket.emit("get_categories");
+  } catch (error) {
+    console.error("Error fetching categories:", error);
+  }
+};
+
 // Subscribe to real-time product updates
 export const subscribeToProductUpdates = async () => {
   try {
@@ -30,11 +50,28 @@ export const subscribeToProductUpdates = async () => {
           if (update.action === "add") {
             return [...current, update.item];
           } else if (update.action === "update") {
-            return current.map((product) =>
-              product.id === update.id
-                ? { ...product, [update.field]: update.value }
-                : product
-            );
+            return current.map((product) => {
+              if (product.id === update.id) {
+                if (update.field === "category_id") {
+                  let updatedCategoryName = "Unknown";
+                  categories.subscribe((cats) => {
+                    const updatedCategory = cats.find(
+                      (cat) => cat.id === update.value
+                    );
+                    updatedCategoryName = updatedCategory
+                      ? updatedCategory.category_name
+                      : "Unknown";
+                  });
+                  return {
+                    ...product,
+                    category_id: update.value,
+                    category: updatedCategoryName,
+                  };
+                }
+                return { ...product, [update.field]: update.value };
+              }
+              return product;
+            });
           } else if (update.action === "delete") {
             return current.filter((product) => product.id !== update.id);
           }
@@ -71,12 +108,16 @@ export const updateProduct = async (data) => {
   try {
     const socket = getSocket();
     socket.emit("update_product", data, (response) => {
-      if (!response.success) {
-        console.error("Error updating product:", response.error);
+      if (!response || !response.success) {
+        console.error("Error updating product:", response?.error);
+        throw new Error(
+          response?.error || "Unknown error while updating product"
+        );
       }
     });
   } catch (error) {
     console.error("Error updating product:", error);
+    throw error;
   }
 };
 
