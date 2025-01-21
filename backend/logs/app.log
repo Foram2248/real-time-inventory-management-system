@@ -4842,3 +4842,28 @@ INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 18:12:30] "GET /socket.io/?EIO=4&transp
 INFO:root:Fetching all categories
 INFO:werkzeug:127.0.0.1 - - [19/Jan/2025 18:12:30] "GET /categories HTTP/1.1" 200 -
 INFO:root:Fetching all products
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.146:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:29] "GET /socket.io/?EIO=4&transport=polling&t=x1auegut HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:29] "POST /socket.io/?EIO=4&transport=polling&t=x1auuh79&sid=DcpdCa4RaYSTskG9AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:29] "GET /socket.io/?EIO=4&transport=polling&t=x1auv6vn&sid=DcpdCa4RaYSTskG9AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:29] "GET /socket.io/?EIO=4&transport=polling&t=x1avoy0d&sid=DcpdCa4RaYSTskG9AAAA HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:16:29] "GET /categories HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:root:Updating product with ID 20 on field category_id with value 3
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "GET /socket.io/?EIO=4&transport=websocket&sid=DcpdCa4RaYSTskG9AAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "GET /socket.io/?EIO=4&transport=polling&t=x293r2q7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "POST /socket.io/?EIO=4&transport=polling&t=x2943vh0&sid=bAbpVrJG52TsGzC-AAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "GET /socket.io/?EIO=4&transport=polling&t=x2944973&sid=bAbpVrJG52TsGzC-AAAC HTTP/1.1" 200 -
+INFO:root:Fetching all categories
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "GET /categories HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "GET /socket.io/?EIO=4&transport=polling&t=x294o9ip&sid=bAbpVrJG52TsGzC-AAAC HTTP/1.1" 200 -
+INFO:root:Fetching all products
+INFO:werkzeug:127.0.0.1 - - [21/Jan/2025 15:17:13] "POST /socket.io/?EIO=4&transport=polling&t=x294o0sh&sid=bAbpVrJG52TsGzC-AAAC HTTP/1.1" 200 -

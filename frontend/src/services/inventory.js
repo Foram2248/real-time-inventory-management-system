@@ -20,25 +20,6 @@ export const fetchProducts = async () => {
   }
 };
 
-// Service to fetch categories and update the categories store
-export const fetchCategoriesAndUpdateStore = async () => {
-  try {
-    const socket = getSocket();
-    socket.off("categories_data");
-    socket.on("categories_data", (data) => {
-      if (data) {
-        categories.set(data);
-        categories.subscribe((currentCategories) => {});
-      } else {
-        console.error("Failed to fetch categories: Data is undefined");
-      }
-    });
-    socket.emit("get_categories");
-  } catch (error) {
-    console.error("Error fetching categories:", error);
-  }
-};
-
 // Subscribe to real-time product updates
 export const subscribeToProductUpdates = async () => {
   try {
